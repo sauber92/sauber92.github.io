@@ -7,7 +7,7 @@ gems:
 permalink:           pretty
 
 # Setup
-url:                 `https://sauber92.github.io`
+url:                 https://sauber92.github.io/hydejack
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
