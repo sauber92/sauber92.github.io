@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'v5: The Fast One'
+title: '정준영(sauber92)의 블로그입니다'
 tags: [hyde]
 description: >
-  This release dramatically increases page load speed which matters to Google and visitors with slow connections alike.
+  이 블로그는 경희대학교 전자전파공학과, 컴퓨터공학과에 재학 중인 정준영의 블로그입니다.  
 ---
 
 This major release increases page load speed dramatically. The page now scores roughly 90/100 on [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fqwtel.com%2Fhydejack%2F) (up from ~50) and has a high score on similar tools.

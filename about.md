@@ -9,4 +9,3 @@ title: About
 {% endcomment %}
 {% include about-short.html author=site.author %}
 
-[write something about self]

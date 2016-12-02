@@ -7,7 +7,7 @@ gems:
 permalink:           pretty
 
 # Setup
-url:                 https://sauber92.github.io/hydejack
+url:                 https://sauber92.github.io
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
@@ -33,7 +33,7 @@ image:               /hydejack/public/img/nap.jpg
 color:               '#A85641'
 
 # Fonts
-font:                '"PT Serif", Georgia, serif'
+font:                '"Nanum Gothic", "PT Serif", Georgia, serif'
 font_accent:         '"Roboto Slab", "PT Serif", Georgia, serif'
 load_google_fonts:   'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
 
@@ -42,14 +42,12 @@ author:
   name:              'Junyoung Jung'
 
   # This photo will be used in the about section
-  photo:             http://mesl.khu.ac.kr/files/attach/images/138/503/3825b7174f8e184b907648ed25648dcc.jpg
-  photo2x:           hhttp://mesl.khu.ac.kr/files/attach/images/138/503/3825b7174f8e184b907648ed25648dcc@2x.jpg
+  photo:             https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/13237805_968492259936062_3366953170761019237_n.jpg?oh=2ac19ea625d2c85516b989447f3e1af3&oe=58C175E0 
+#  photo2x:           @2x.jpeg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Hi, I'm Junyoung Jung.
-
-    Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
+    안녕하세요, 저는 임베디드와 웹에 관심이 있는 [정준영](https://www.linkedin.com/in/junyoung-jung-4a9459130)([@sauber92](https://github.com/sauber92))입니다.
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
