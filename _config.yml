@@ -29,7 +29,7 @@ description:         >
 sidebar_tags:        [Project, Study, Review]
 
 # Fallback image and color if not overwritten for tag or post
-image:               /hydejack/public/img/nap.jpg
+image:               /public/img/nap.jpg
 color:               '#A85641'
 
 # Fonts
@@ -47,7 +47,7 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    안녕하세요, 저는 임베디드와 웹에 관심이 있는 [정준영](https://www.linkedin.com/in/junyoung-jung-4a9459130)([@sauber92](https://github.com/sauber92))입니다.
+    안녕하세요, [정준영](https://www.linkedin.com/in/junyoung-jung-4a9459130)([@sauber92](https://github.com/sauber92))입니다.
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide

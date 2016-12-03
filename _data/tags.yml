@@ -13,22 +13,21 @@
 
 Project:
   name: Project
-  image: /hydejack/public/img/hyde.jpg
+  image: /public/img/nap.jpg
   color: '#949667'
   description: >
-    Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
-    It’s based on Poole, the Jekyll butler.
+    진행했던 프로젝트 내용을 포스팅
 
 Study:
   name: Study
-  image: /hydejack/public/img/jekyll.jpg
+  image: /public/img/nap.jpg
   color: '#949667'
   description: >
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+    공부 중인 내용을 포스팅
 
 Review:
   name: Review
-  image: /hydejack/public/img/jekyll.jpg
+  image: /public/img/nap.jpg
   color: '#949667'
   description: >
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+    특강, 강연 등을 듣고 난 후 포스팅
