@@ -2,6 +2,9 @@
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-coffeescript
+  - jekyll-watch
+  - jekyll-assets
 
 # Permalinks
 permalink:           pretty

@@ -4,13 +4,789 @@
  <title>sauber92's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2016-12-04T14:18:18+09:00</updated>
+ <updated>2016-12-04T15:27:55+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Junyoung Jung</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>[SOSCON 2016] TIZEN on ARTIK</title>
+   <link href="http://localhost:4000/2016/11/17/soscon-tizen-on-artik/"/>
+   <updated>2016-11-17T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/11/17/soscon-tizen-on-artik</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.soscon.net/pdf/17/1520_2.pdf&quot;&gt;발표자료 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tizen-common&quot;&gt;Tizen Common&lt;/h3&gt;
+
+&lt;p&gt;Tizen은 2012년도 1.0 개발부터 현재(2016) 3.0까지 있다.&lt;br /&gt;
+2.2에서 모바일, 2.3에서는 웨어러블, 2.4에서는 티비로 확장을 하였고 3.0에서는 Tizen:Common이라는 것을 구성하여 대부분의 제품에 사용하도록 함.&lt;br /&gt;
+꼭 ARTIK이 아니더라도 Low-end to High-end coverage of devices를 지향&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;tizen-on-artik&quot;&gt;Tizen on ARTIK&lt;/h3&gt;
+
+&lt;p&gt;ARTIK1: 일반인이 구매할 수는 없고, 가전제품 쪽에 사용되고 있다.&lt;br /&gt;
+ARTIK5/10 : I/O header가 외부로 나와있어 사람들이 사용하기에 편하다.&lt;/p&gt;
+
+&lt;p&gt;타이젠이 올라간 아틱은 전화만 안되는 스마트 기기라 생각하면 쉽다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;IoTivity가 아두이노나 라즈베리파이에서 제대로 적용이 안되어 있는데, ARTIK에서는 잘 되어 있고 특히 Tizen 기반 위에서 하는 것을 권장하는 느낌이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;iot-simple-aplication-on-artik-cloud&quot;&gt;IoT Simple Aplication on ARTIK Cloud&lt;/h3&gt;
+
+&lt;h5 id=&quot;demo&quot;&gt;Demo&lt;/h5&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Smartphone(Set Rule)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ARTIK Cloud - ARTIK5(Sensor)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ARTIK10(Actuator)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5 id=&quot;demo-contents&quot;&gt;Demo Contents&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ARTIK Cloud&lt;/li&gt;
+  &lt;li&gt;system IO&lt;/li&gt;
+  &lt;li&gt;node.js(system IO add-on)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tizen Middleware 에 system IO interface가 있고, 이를 node.js를 사용하여 add-on 할 수 있게하여, sensor와 actuator를 제어하는 어플리케이션을 javascript로 짤 수 있게 한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.tizen.org/wiki/Tizen_On_ARTIK&quot;&gt;Tizen Wiki Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;느낌점 : ARTIK은 하드웨어 스펙만 보더라도 기존의 아두이노나 라즈베리파이, 인텔 에디슨에 비해 뛰어나다는 것을 알 수 있다. 하지만 학생이나 개발자들이 인식하기엔 접근하기 어렵다는 느낌이 있다. 이는 가격에 이유도 있겠고, 이미 아두이노와 라즈베리파이가 이 시장에 선두주자로 있기 때문인거 같다. Tizen에 경우, 사실 금방 사라질줄 알았다. 하지만 지속적으로 삼성 디바이스에 사용되면서 발전하고 있어 보이고, 이번 Tizen3.0의 경우 여러 디바이스를 지원하기 위해 개발된 만큼 기대가 된다. 이러한 Tizen이 ARTIK보드에 올라간다면 그 시너지가 더 커질 것으로 보이고 삼성이 하드웨어뿐만아니라 미들웨어, 나아가 소프트웨어까지 진출하려는 의지가 보이는거 같다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[SOSCON 2016] 오픈소스에서의 취약점 분석</title>
+   <link href="http://localhost:4000/2016/11/17/soscon-opensource-security/"/>
+   <updated>2016-11-17T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/11/17/soscon-opensource-security</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.soscon.net/pdf/17/1610_2.pdf&quot;&gt;발표자료 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;컴퓨팅-환경의-변화&quot;&gt;컴퓨팅 환경의 변화&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1984 - PC 등장&lt;/li&gt;
+  &lt;li&gt;1989 - PC 통신&lt;/li&gt;
+  &lt;li&gt;1994 - Desktop PC&lt;/li&gt;
+  &lt;li&gt;1999 - Portable PC&lt;/li&gt;
+  &lt;li&gt;2004 - Netbook&lt;/li&gt;
+  &lt;li&gt;2009 - iPhone&lt;/li&gt;
+  &lt;li&gt;2014 - IoT&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;앞으론 Connected car 등이 나올 것이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;open-source-is-everywhere&quot;&gt;Open Source is Everywhere&lt;/h3&gt;
+
+&lt;p&gt;78%의 회사에서 오픈소스를 사용하고 있다. 그리고 이런 회사들의 소스를 보면 30%가 오픈소스이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;오픈소스와-주요-취약점&quot;&gt;오픈소스와 주요 취약점&lt;/h3&gt;
+
+&lt;p&gt;오픈소스가 늘어나면서 취약점도 많이 발견되고 있는데, 툴을 통해 발견되는 것으 10%밖에 없다.&lt;/p&gt;
+
+&lt;p&gt;2015년 국내 인터넷 10대 산업 이슈 전망 중, 오픈소스 취약점에 관한 내용이 포함되기 시작&lt;/p&gt;
+
+&lt;p&gt;2014년에 Heartbleed라는 OpenSSL 라이브러리에서 나타나는 버그, Shellshock이라는 bash쉘과 인터프리터에 있는 취약점이 발견되어 심각성을 느낌&lt;/p&gt;
+
+&lt;p&gt;국내 금융권의 Heartbleed 영향 조사 결과를 보면 발빠르게 대처를 하였다. 이는 좋게 보고있다.&lt;br /&gt;
+Shellshock에 경우, 유럽에서는 발견 후 조치를 잘했지만 나머지 지역에서는 제대로 못했다.&lt;/p&gt;
+
+&lt;p&gt;이렇듯 보안취약점들은 시한폭탄과 같이 언제 터질지 모르는 사항이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;open-source-security-is-a-big-deal&quot;&gt;Open source security is a big deal&lt;/h3&gt;
+
+&lt;p&gt;Open source Licensing Compliance와 달리 Open source security의 경우 이제 막 만들어지기 시작했다.&lt;/p&gt;
+
+&lt;p&gt;오픈 소스 보안취약점의 책임 : 사용자에게 있음&lt;br /&gt;
+(사용 코드에 경우 전담 보안 전문가와 팀이 있으므로 체계가 잘 되어있고 패치 업데이트도 정기적으로 이루어지고 있다.)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;automation-supports-compliance-teams&quot;&gt;Automation Supports Compliance Teams&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Automation tools&lt;/li&gt;
+  &lt;li&gt;Source code&lt;/li&gt;
+  &lt;li&gt;Binary Code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;위의 세가지 자동화 방법이 있지만, 많이는 없다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;느낀점 : 오픈소스의 보안취약점에 대해 인식은 하고 있지만, 현실적으로 관리하기 어려운게 사실이다. 유명한 오픈소스의 경우 많은 개발자들이 참여하면서 취약점을 고치고 있지만 완벽하지는 못하다. 보안쪽에서 완벽은 있을 수 없지만 이를 효율적으로 관리하는게 필요하다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[SOSCON 2016] IoTivity 기반 헬스케어 디바이스 구현사례 및 이유</title>
+   <link href="http://localhost:4000/2016/11/17/soscon-iotivity-healthcare/"/>
+   <updated>2016-11-17T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/11/17/soscon-iotivity-healthcare</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.soscon.net/pdf/17/1420_2.pdf&quot;&gt;발표자료 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;개념&quot;&gt;개념&lt;/h3&gt;
+
+&lt;p&gt;스마트폰(IoTivity Stack) 등을 사용하여 OCF표준기반을 통해 디바이스(IoTivity Stack) 제어&lt;br /&gt;
+ETRI : 내년 상반기 즈음 최종 표준화를 목표로 하고있음&lt;br /&gt;
+IoTivity가 정형화가 잘 되어있어서 개발에 큰 도움이 될 것이다.&lt;/p&gt;
+
+&lt;h5 id=&quot;구조&quot;&gt;구조&lt;/h5&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Data Models&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Core Framework&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Transports&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5 id=&quot;iotivity-stack&quot;&gt;IoTivity Stack&lt;/h5&gt;
+
+&lt;p&gt;고사양 기기를 위한 Stack vs 저사양 기기를 위한 Stack&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;ocf-healthcare-표준&quot;&gt;OCF Healthcare 표준&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;피트니스/헬스케어 리소스 모델 개발&lt;/li&gt;
+  &lt;li&gt;피트니스/헬스케어 디바이스 스펙 개발&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;헬스케어-디바이스-구현-내용-소개&quot;&gt;헬스케어 디바이스 구현 내용 소개&lt;/h3&gt;
+
+&lt;h5 id=&quot;trivia-of-iotivity&quot;&gt;Trivia of IoTivity&lt;/h5&gt;
+
+&lt;p&gt;Wiki 사이트를 통해 개발하면 좋다.&lt;br /&gt;
+퍼블릭키를 등록하고 소스를 받는 것을 가장 추천! (다른 방법으로는 github을 통한 것과 홈페이지에 있는 tar를 받는 것)&lt;br /&gt;
+빌드는 scons로 할 수 있는데 깔끔하게 잘 된다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;음…라즈베리파이에서 IoTivity를 빌드하기 위해 wiki 봤었는데 별로였음…결국 빌드도 실패!!! 근데 나머지 부분은 잘 되어 있나보다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;사실 Wiki에는 빠진 내용이 많은데 소스 안에 들어간 정보는 굉장히 자세히 되어있다. 참고바람!!&lt;/p&gt;
+
+&lt;p&gt;Product 개발을 위해선 Conformance Test Tool을 사용하는 걸 추천!&lt;br /&gt;
+ITT(IoTivity Test Tool), CTT(Conformance Test Tool) 등이 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ITT&lt;/strong&gt; : https://wiki.iotivity.org/conformance_test_tool (공식은 아님. 보기는 CTT보다 편하다)&lt;br /&gt;
+&lt;strong&gt;CTT&lt;/strong&gt; : https://workspace.openconnectivity.org/kws/test_tools (공식 툴)&lt;/p&gt;
+
+&lt;h5 id=&quot;healthcare-data-model-구현-사례-소개&quot;&gt;Healthcare data model 구현 사례 소개&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;스펙&lt;/strong&gt;&lt;br /&gt;
+HW : Arduino Due&lt;br /&gt;
+Host : Ubuntu PC&lt;br /&gt;
+IoTivity : ver 1.1.0&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HW Platform 변경 : 아두이노 메가 -&amp;gt; 아두이노 듀 (메모리 부족의 원인)&lt;/li&gt;
+  &lt;li&gt;scons script 수정 : 아두이노 라이브러리 추가, 컴파일 어파일케이션 변경(빌드와 업로드를 한꺼번에 쉽게 하기 위해)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;API&lt;/strong&gt;&lt;br /&gt;
+C++ API, C API, CA(Connectivity Abstraction)&lt;br /&gt;
+고사양(리눅스)은 C++, 저사양(아두이노)은 C를 추천 / CA는 코드가 별로야 비추천&lt;/p&gt;
+
+&lt;h3 id=&quot;이슈---iotivity에서의-ble-지원&quot;&gt;이슈 - IoTivity에서의 BLE 지원&lt;/h3&gt;
+
+&lt;p&gt;OCF의 기본 철학 : 플랫폼에 상관없이 공통된 인터페이스로 통신이 가능하게 한다.&lt;/p&gt;
+
+&lt;p&gt;하지만 실제로는…&lt;br /&gt;
+BLE를 지원하지 않음. Wifi/Ethernet를 선호. Smart home을 기본으로 생각하여 개발하였기 때문&lt;br /&gt;
+또한 IPv6를 사용하는 것을 표준으로 정했다.&lt;br /&gt;
+하지만 삼성과 같은 기업은 BLE를 사용한 제품 생산도 해야하므로 BLE를 지원할 수 있도록 제안&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;이슈---iotivity에서의-아두이노-지원&quot;&gt;이슈 - IoTivity에서의 아두이노 지원&lt;/h3&gt;
+
+&lt;p&gt;OCF의 기본 철학 : 다양한 운영체제에서 공통된 인터페이스로 가능하게 한다.&lt;/p&gt;
+
+&lt;p&gt;하지만 실제로는…&lt;br /&gt;
+IoTivity가 아두이노를 제대로 지원하지 않음&lt;br /&gt;
+Security 관련 기능의 구현이 아두이노 지원코드에서 빠져 있음&lt;br /&gt;
+추후 아두이노에서 지원할 계획은 없다.(by Intel) 아두이노가 재밌는 플랫폼은 맞지만 제품을 개발하기 위한 보드는 아니라 생각하고 취미용이라 판단&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;결론&quot;&gt;결론&lt;/h3&gt;
+
+&lt;p&gt;IoTivity가 까다롭다고 생각되지만 아직 진행 중인 오픈소스 프로젝트이므로 향후 OCF의 철학에 맞는 IoTivity가 될 것으로 예상.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;느낀점 : IoTivity가 아두이노, 라즈베리파이 등에 제대로 적용이 안되었고 이를 사용하기에 어려움이 있다는 것은 사실이다. 삼성 측에서는 ARTIK보드에서 IoTivity의 사용이 자유로울수 있게 대처한 것으로 보이지만, 기존의 시장에 나와있는 아두이노와 라즈베리파이의 지원이 제대로 안되었다는 것은 문제가 있는 것 같다. 또한 IoTivity가 IoT 디바이스에서 필요한 존재로 발전될 것같아 기대가 된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[SOSCON 2016] IoTivity Bigpicture</title>
+   <link href="http://localhost:4000/2016/11/17/soscon-iotivity-bigpicture/"/>
+   <updated>2016-11-17T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/11/17/soscon-iotivity-bigpicture</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.soscon.net/pdf/17/1330_2.pdf&quot;&gt;발표자료 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;Resource는 공통적으로 가져야하는 Property, 타입별로 고유하게 가져야 하는 Attribute로 구성&lt;br /&gt;
+이러한 Resource가 여러개 포함되어 있는 Collection. 이것들을 통해 다양한 Things를 정의&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Base layer&lt;/li&gt;
+  &lt;li&gt;Service Layer&lt;/li&gt;
+  &lt;li&gt;Cloud Interface&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;OCF Server : 작은 Things&lt;br /&gt;
+OCF Client : 모바일이나 PC와 같이 Server를 제어&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CoAP Messaging&lt;/strong&gt;이라는 표준을 사용하여 메세지를 주고받음&lt;br /&gt;
+Application 상에서는 Reliable/Unreliale Message Transmission을 지원 (Reliable은 메세지 보내면 ACK, Unreliable은 응답이 없으면 말고~)&lt;br /&gt;
+토큰…..알아두면 코드 분석이 좋을것이다. IoTivity는 토큰을 통해 메세지를 주고받으므로….&lt;br /&gt;
+Piggybacked Responses 같은게 IoTivity에 적용되어있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Block-wise Transfer&lt;/strong&gt;가 적용되어 있음.&lt;br /&gt;
+IoTivity를 실행해보면 Block-wise 메세지가 보일텐데, 계속 체크하고 있다는 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resource Directory!!&lt;/strong&gt;&lt;br /&gt;
+저사양 디바이스가 제한이 많으므로, Directory의 역할을 하는 디바이스에 디바이스 정보를 저장해두고, 이를 다른 고사양 디바이스에서 사용가능하게 할 수 있다. 이는, 같은 공간에 존재하는 디바이스 뿐만 아니라, Cloud를 통해 리모트 디바이스도 가능하다. 이때 보안에 신경쓸 수 있게 OAuth Provider를 이용하고 Account Server를 두어 관리한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Message Switching!!&lt;/strong&gt;&lt;br /&gt;
+라우팅을 어플리케이션 레벨에서 가능하게 하여, 서로 다른 형식의 디바이스를 연결&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Security!!&lt;/strong&gt;&lt;br /&gt;
+Ownership을 얻은 Admin 디바이스가 존재하고, 다른 디바이스들은 이 Admin 디바이스에게 권한을 요청하여 어세스할 수 있게 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resource Container!!&lt;/strong&gt;&lt;br /&gt;
+다른 프로토콜을 사용하는 Things와의 연결&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scene Manager!!&lt;/strong&gt;&lt;br /&gt;
+여러 디바이스를 하나의 집합으로 뭉치게 하여, 상황을 지정하여 한꺼번에 제어할 수 있도록 한다.&lt;br /&gt;
+ex) 영화감상모드, 독서모드 등을 설정하고 조명이나 티비등을 한꺼번에 제어&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notification!!&lt;/strong&gt;&lt;br /&gt;
+ex) PC와 모바일을 같이 쓴다고 했을 때, 모바일에 오는 알람을 PC에서도 받을 수 있게..&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Simulator!!&lt;/strong&gt;&lt;br /&gt;
+Server나 Client를 시뮬레이션 할 수 있도록 만들어둠&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;현재 IoTivity는 계속 업데이트 중이며 Wiki도 함께 업데이트되고 있으니, 살펴보면 될 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;느낀점 : IoTivity의 특징을 빠르게 설명하다보니 따라가기 힘들었다. 이미 IoTivity가 없더라도 이러한 역할은 다양한 디바이스에서 사용가능하고 개발 가능했다. 하지만 IoTivity를 통해 정형화 된다면 좀 더 편하고 빠른 개발이 가능할 것은 기대된다. 최근에 라즈베리파이에 IoTivity를 빌드하기 위해 IoTivity Wiki를 살펴본 경험이 있다. 하지만 자세한 설명이 되어 있지 않아 많이 실망했다. 아직 초기 단계이니 더 발전할 것이라 믿는다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[SW 스타트업 비지니스 특강] SALTED Venture CEO 조형진 대표님 강의</title>
+   <link href="http://localhost:4000/2016/11/14/swbz-salted-venture/"/>
+   <updated>2016-11-14T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/11/14/swbz-salted-venture</id>
+   <content type="html">&lt;h3 id=&quot;삼성전자에서-왜-사내-벤쳐를-시작했을까&quot;&gt;삼성전자에서 왜 사내 벤쳐를 시작했을까?&lt;/h3&gt;
+
+&lt;p&gt;삼성전자는 항상 반성을 자주하고 대비하는 회사였다. 삼성전자는 회사 내부의 생각이 굳어있는 것을 반대했으며, C-LAB이라는 사내벤쳐 프로그램을 진행하고 있다.&lt;br /&gt;
+삼성전자에서 첫 제안은 C-LAB에서 나온 아이디어를 1년 뒤, 삼성전자의 사업으로 가져오려고 했다. 하지만 이를 혁신이라 생각하지 않았던 TOP Manager의 제안으로 Spin-Off를 하게 되었다.&lt;br /&gt;
+이 TOP Manager의 생각은, 삼성전자가 IoT 시대에 맞춰서 뒷쳐져있다 판단하였기 때문이고 여러 분야(문화, 예술, 헬스 등)의 C-LAB 아이디어를 먼저 시장에 진출시킨 후 가능성이 보이면 인수를 하든 투자를 해보자! 였다. 또 다른 삼성전자의 명분은 외국계 석박사 출신의 사람들을 뽑고 보니, 실제로 제품을 개발하는 것이 아닌 펜 굴리기를 많이 하고 있어보였기 때문에 Spin-Off를 통해 &lt;strong&gt;Wild DNA Procurement&lt;/strong&gt;를 추구하고자 했다.&lt;/p&gt;
+
+&lt;p&gt;조형진 대표님의 생각으로는 삼성전자 안에서 자신의 발전이 멈춰있다고 생각을 했으며, 자신의 일상의 주인이 되고자, 10년 후에도 지속적으로 일을 하기 위해 도전을 하고 싶었다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;barrier&quot;&gt;Barrier&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;전직 삼성맨&lt;/strong&gt; : 삼성에 다닐땐 회사에서 해주는 것이 많았는데, 시장에 나와보니 모든 것이 힘든 것이었다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Concerns about the Market&lt;/strong&gt; : 시장에 대해 많이 배우게 되었다. 삼성전자에 다닐 땐, 삼성전자에서 내놓은 제품을 사람들이 다 좋게 봤지만 실제 시장에 나와서 제품을 소개하다보면 좋게 보는 사람은 적었다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;실제 시장에 나와서 스포츠 IT 제품(스마트 슈즈)을 만들었는데, 아직 시장은 기술의 중요성보다 소비를 중시한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;episode&quot;&gt;Episode&lt;/h3&gt;
+
+&lt;p&gt;스타트업 대표로서 무엇인가를 &lt;strong&gt;결정&lt;/strong&gt;한다는 것이 굉장히 어렵다. 처음 시장에 나왔을 때 경험도 없고 안개 속에 있는 느낌이고, 한번의 결정에 큰 돈이 들기 때문에 좋은 판단을 하는 것이 어렵다.&lt;/p&gt;
+
+&lt;h4 id=&quot;episode-1&quot;&gt;Episode 1.&lt;/h4&gt;
+&lt;p&gt;스페인의 Mobile World Congress(MWC)에 가서 부스를 하나 받고 제품 홍보를 하고싶었다. 하지만 그 부스를 사고, 비행기 값까지 하는데 천만원의 돈이 소모된다. 하지만 타이트하게 밀어 붙였고 결국 가게 되었다. 그러나 늦게 신청하여 받은 부스는 사람들이 잘 오지 않는 위치에 있었고, 첫째 날 적은 사람의 방문을 보고 둘째 날 죽어보자! 라는 생각에 판플렛을 들고 삼성부스 앞으로 가서 기자들에게 적극적인 홍보를 했다. 그날 오후 많은 기자들의 방문이 있었고 구글에 검색하면 기사가 나오게 되었다.&lt;/p&gt;
+
+&lt;h4 id=&quot;episode-2&quot;&gt;Episode 2.&lt;/h4&gt;
+&lt;p&gt;MWC 이후에도 국내에서는 큰 주목은 받지 못했지만 우연히 박근혜 대통령이 “이거 인공지능이예요?” 라는 질문이 한 매체를 통해 방송되었고, 그 후 인터넷 짤방을 통해 국내에서도 알려지게 되었다.&lt;/p&gt;
+
+&lt;h4 id=&quot;episode-3&quot;&gt;Episode 3.&lt;/h4&gt;
+&lt;p&gt;또 한번의 혁신을 위해 KICKSTARTER를 도전하게 되었다. 이 경험을 통해 알게된 것은 국내 내수시장으로는 힘들고 글로벌하게 나아가야한다. 하지만 글로벌 시장에서 원하는 것은 우리의 생각과 많이 다르다. 제안하고 싶은 것은 Market-side하게 생각을 하며 100% 이길 수 있는 제품을 내놓아야한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;vision&quot;&gt;Vision&lt;/h3&gt;
+
+&lt;p&gt;지금까지는 홍보를 하기위해 나아갔다면, 앞으로는 &lt;strong&gt;판매&lt;/strong&gt;를 위해 나아가고 싶다.&lt;/p&gt;
+
+&lt;p&gt;스마트 슈즈인 IOFIT은 스포츠, 헬스케어, 엔터테이먼트(VR) 등으로 진출을 할 것이고 서드파티 회사들과 같이 개발 중이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;본질&quot;&gt;본질&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;본질&lt;/strong&gt;이라는 것은 의사결정을 하고 판단을 할 때 용기를 주는 것이다. 하지만 회사에 있을 땐, 비본질적인 것이 중요할 때가 많았다. 눈치를 보는 것, PPT자료를 이쁘게 만들어야 하는 것, 보고를 통해 결정이 내려지기까지 긴 시간이 걸리는 것이 바로 그것이다. 하지만 스타트업에선 이런 비본질 적인 것을 제외할 수 있고, 빠른 의사결정을 할 수 있다는 것이 스타트업의 큰 장점으로 생각한다. 이것은 다윗이 골리앗을 이길 수 있는 힘이다.&lt;/p&gt;
+
+&lt;p&gt;창업가의 가장 중요한 본질은, 어떤 것을 주어졌을 때 마지막까지 치열하게 해내는 것이라 생각한다. 스타트업의 경쟁사는 삼성, 구글, 애플과 같은 글로벌한 대기업이다. 하지만 이러한 회사도 처음엔 창업으로 시작되었고 &lt;strong&gt;해낸다!&lt;/strong&gt; 라는 창업가 정신이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;스타트업의 키 포인트는 &lt;strong&gt;TEAM&lt;/strong&gt;, &lt;strong&gt;PRODUCT&lt;/strong&gt;, &lt;strong&gt;MARKET&lt;/strong&gt;이다.&lt;/p&gt;
+
+&lt;h4 id=&quot;team&quot;&gt;TEAM&lt;/h4&gt;
+&lt;p&gt;첫 시작이면 혼자서 하는 것이 좋을 수도 있다. 왜냐하면 팀안에서 직책이 생기면 그 직책의 말을 하려고 한다. 그래서 CEO를 제외하곤 CTO, CMO라는 것이 있을 필요는 없다. 하지만 대표라면 항상 희생하여야 하고, 마지막까지 남아있어야 한다.&lt;/p&gt;
+
+&lt;h4 id=&quot;product&quot;&gt;PRODUCT&lt;/h4&gt;
+&lt;p&gt;HW 제품은 기술적으로 다가가기보다 고객들을 생각하고 현실의 벽을 알고 있어야한다.&lt;/p&gt;
+
+&lt;h4 id=&quot;market&quot;&gt;MARKET&lt;/h4&gt;
+&lt;p&gt;Problem, Solve 보다 Market에 대한 이해가 필요하다. 좋은 팀과 훌륭한 제품을 만든다 하더라도 시장이 원하는 것이 아니면, 그냥 좋은 기술을 알린 봉사일 뿐이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;start-a-job-start-a-startup&quot;&gt;Start a Job? Start a Startup?&lt;/h3&gt;
+
+&lt;p&gt;사회에 나가 보면 경쟁자로 생각하여야 하는 사람들은 세 분류로 나눌 수 있는 것 같다. Technology based(카이스트 등), Big Corporation(삼성 등), Overseas Educated(해외 유명 대학 출신)가 그것이다.&lt;br /&gt;
+솔직히 한국사회에서는 취업을 하는 것이 안정적이고 좋은 길이다. 하지만 창업은 우리 인생에서 필수적인 길일 수 있다. 그러나 무조건 도전을 하는 것이 아닌, Plan B를 생각하고 보수적으로 나아가야한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;game-set-to-win&quot;&gt;Game set to WIN&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;페이팔 마피아&lt;/strong&gt;라는 말은 괜히 나온 것이 아니다. 페이팔 출신들이 항상 이기고 있다. 이기는 놈이 이기는 것이다. 페이팔 출신들은 자신들이 경험을 많이 해보았고 판을 짠다음 들어간다. 그러니 항상 이길 수 밖에 없다. 따라서 스타트업을 할 때 동아리처럼 하는 것이 아닌, 항상 이길 수 있는 싸움을 해야한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;you-will-fail&quot;&gt;You will FAIL&lt;/h3&gt;
+
+&lt;p&gt;실수와 실패를 할 수 밖에 없다. 하지만 경험이라는 것은 굉장히 큰 자산이다.&lt;/p&gt;
+
+&lt;p&gt;삼성 SW 멤버쉽이 올해부터 사라졌다. 사라진 이유는, 이 출신들은 삼성에 취업을 하는 것이 아닌 자기들끼리 뭉쳐서 스타트업을 하는 경향이 많았기 때문이다. 한국식 페이팔 마피아인 것이다. 이 멤버쉽 사람들은 이러한 경험을 미리 해보았기 때문에 도전해 볼 수 있는 것이다. 그러니 경험을 해보는 것이 충분히 박수받을 수 있는 것이라 생각한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;여담&quot;&gt;여담&lt;/h3&gt;
+
+&lt;p&gt;서상원 교수님(대표님)은 항상 팀을 모아서 도전을 해보는 사람이였다. 이러한 도전을 끊임없이 하는 것이 학부생때부터 대단해 보였다. 그리고 좋은 사람을 놓치지 않는 분이다. 좋은 사람을 만나 같이 무엇인가를 해보는 경험을 추천한다.&lt;/p&gt;
+
+&lt;h4 id=&quot;episode-1-1&quot;&gt;Episode 1&lt;/h4&gt;
+&lt;p&gt;개발방법론에서 정답은 없다.&lt;/p&gt;
+
+&lt;h4 id=&quot;episode-2-1&quot;&gt;Episode 2&lt;/h4&gt;
+&lt;p&gt;예술작품이 아닌 시장이 원하는 제품을 만들어야 한다.&lt;/p&gt;
+
+&lt;h4 id=&quot;episode-3-1&quot;&gt;Episode 3&lt;/h4&gt;
+&lt;p&gt;기회는 항상 존재한다. 깨어있는 사람이면 이러한 기회가 왔을 때 잡을 수 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;qna&quot;&gt;QnA&lt;/h3&gt;
+
+&lt;p&gt;Q.&lt;br /&gt;
+미국 시장과 국내 시장의 차이점은?&lt;br /&gt;
+A.&lt;br /&gt;
+미국 소비자들은 어떠한 서비스가 나오면 돈을 주고 이용을 하는걸 당연하다 생각한다. 하지만 국내 소비자들은 지출이 들어가면 일단 안좋게 본다.&lt;br /&gt;
+또한 모든 기술, 제품은 미국에서 먼저 나오고 한국은 그것을 따라가려고 한다. 하지만 하나가 잘되면 다른 회사들도 그것을 따라가려고 하고 그러다 보니 다같이 죽고있다.&lt;br /&gt;
+이미 스마트폰 어플리케이션 시장에서는 혁신을 찾기가 힘들어 보인다. 수많은 제품이 나왔고 나오고있다. Market-Side한 관점에서 봐야한다.&lt;/p&gt;
+
+&lt;p&gt;Q.&lt;br /&gt;
+경쟁사는 없나?&lt;br /&gt;
+A.&lt;br /&gt;
+경쟁사가 있다. 그리고 경쟁사가 있다는 것을 감사하게 생각한다. 기존의 신발 회사(나이키 등)의 회사에서도 도전을 했다 접기도 했다. 이러한 회사들의 혁신은 더 이상 좋은 재질로 승부할 수가 없다. 그래서 IT와 관련된 혁신이 필요하고, 우리 회사만 그것을 도전하기엔 힘들다. 이는 스포츠IT 분야가 지금도 Early한 경향이 있고, 처음 사업을 시작할 때부터 지금까지 마찬가지다. 따라서 수많은 회사가 스포츠IT에 도전하여 함께 시장을 만들어 갔으면 좋겠다.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[SW 스타트업 비지니스 특강] 사물인터넷 특강</title>
+   <link href="http://localhost:4000/2016/11/07/swbz-iot/"/>
+   <updated>2016-11-07T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/11/07/swbz-iot</id>
+   <content type="html">&lt;h3 id=&quot;스마트폰으로-변화된-우리의-일상&quot;&gt;스마트폰으로 변화된 우리의 일상&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;디지털 사진 촬영의 일상화&lt;/li&gt;
+  &lt;li&gt;SNS의 폭발적 성장&lt;/li&gt;
+  &lt;li&gt;모바일 중심 소비(TV, 신문에서 개인방송, Hot Clip)&lt;/li&gt;
+  &lt;li&gt;모바일 메신저의 사용&lt;/li&gt;
+  &lt;li&gt;대화의 단절, 디지털 디톡스, 스마트폰의 중독 증상&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;따라서, 스마트폰을 매개로 한 인터넷의 소비 = &lt;strong&gt;연결의 세상&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;사물인터넷&quot;&gt;사물인터넷&lt;/h3&gt;
+
+&lt;p&gt;사람 중심에서 사물 중심의 인터넷으로 연결의 변화&lt;/p&gt;
+
+&lt;p&gt;사용자(스마트폰)&lt;br /&gt;
+|&lt;br /&gt;
+인터넷 - 클라우드/빅데이터&lt;br /&gt;
+|&lt;br /&gt;
+게이트웨이 - 사물(센서)&lt;/p&gt;
+
+&lt;p&gt;예시)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;하기스 귀저기 : 아기 대/소변 알람&lt;/li&gt;
+  &lt;li&gt;연인간 사용하는 배개 : 배개위에 누워야 상대방의 배개에 불이 들어옴&lt;/li&gt;
+  &lt;li&gt;농구공 : 회전수, 궤적 등을 판별&lt;/li&gt;
+  &lt;li&gt;스마트화분&lt;/li&gt;
+  &lt;li&gt;Nest, Ecobee&lt;/li&gt;
+  &lt;li&gt;등등등&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;사물인터넷의-진화방향&quot;&gt;사물인터넷의 진화방향&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;인터넷 연결 확대&lt;/strong&gt; : 전자기기의 연결 -&amp;gt; 비전자기기의 연결&lt;br /&gt;
+&lt;strong&gt;지능의 고도화&lt;/strong&gt; : 센싱, 정보처리, 원격제어 -&amp;gt; 학습, 자율제어&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;자  율  화&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;최  적  화&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;제     어&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;모  니  터  링&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;성장-가능성이-높은-분야&quot;&gt;성장 가능성이 높은 분야&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;잠재 시장 1위는 스마트홈!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;스마트홈을 통해 기대되는 것&lt;br /&gt;
+(아래로 갈 수록 기대하는 사람이 많은 항목)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;향상된 경험&lt;/li&gt;
+  &lt;li&gt;기기 최적화&lt;/li&gt;
+  &lt;li&gt;정량화&lt;/li&gt;
+  &lt;li&gt;보안 확장&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;그외&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;헬스케어&lt;/li&gt;
+  &lt;li&gt;스마트시티&lt;/li&gt;
+  &lt;li&gt;농업&lt;/li&gt;
+  &lt;li&gt;산업인터넷, 4차 사업혁명&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[Naver Bigdata Literacy Conference] 전체 리뷰</title>
+   <link href="http://localhost:4000/2016/11/07/naver-bigdata/"/>
+   <updated>2016-11-07T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/11/07/naver-bigdata</id>
+   <content type="html">&lt;h1 id=&quot;키노트_구본권-소장한겨레-사람과디지털연구소&quot;&gt;키노트_구본권 소장(한겨레 사람과디지털연구소)&lt;/h1&gt;
+
+&lt;h3 id=&quot;로봇-저널리즘의-등장&quot;&gt;로봇 저널리즘의 등장&lt;/h3&gt;
+&lt;p&gt;야구 승부결과 저널 알고리즘을 통해 쓰여진 글은 사람이 쓴 글보다 훨씬 정확하고 빠르다.&lt;br /&gt;
+현재 세상은 데이터와 구조를 파악하지 않고 살아갈 수 없는 세상이다.&lt;/p&gt;
+
+&lt;p&gt;사진, 대통령 연설문 등 메타 정보를 통해 얻고 있는 자료가 많다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;meta-data&quot;&gt;Meta data&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;보이지 않는다.&lt;/li&gt;
+  &lt;li&gt;원본보다 커도 문제없다.&lt;/li&gt;
+  &lt;li&gt;기계가 인식 처리할 수 있다.&lt;/li&gt;
+  &lt;li&gt;설계하는 대로 만들어진다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;인공지능의-과제와-데이터&quot;&gt;인공지능의 과제와 데이터&lt;/h3&gt;
+
+&lt;p&gt;인공지능 사회는 기본적으로 데이터 기반 사회&lt;br /&gt;
+과거의 아날로그 데이터가 디지털 데이터로 바뀐 데 따른 것&lt;br /&gt;
+AI시대엔 사람이 할 수 있는 일을 찾아내는 일이 핵심&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;마케팅-용어가-된-big-data&quot;&gt;마케팅 용어가 된 Big Data&lt;/h3&gt;
+
+&lt;p&gt;데이터 규모와 비정형성 무관한 빅데이터 광풍&lt;br /&gt;
+모든게 빅데이터로 포장되면서 데이터의 속성과 구조에 대한 이해가 오히려 방해됨&lt;br /&gt;
+빅데이터 개념 혼돈으로, 정형-유한 데이터의 의미 팦앞꽈 활용 부재&lt;br /&gt;
+디이터 속성 알아야 기계 역할과 인간 역할 식별 간으&lt;/p&gt;
+
+&lt;p&gt;따라서 디지털 사회의 필수능력인 &lt;strong&gt;데이터 리터러시&lt;/strong&gt; 이다.&lt;br /&gt;
+어떻게 데이터의 구조를 알고 기술과 서비스 설계를 할 수 있을지…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;빅데이터와-새로운-접근법&quot;&gt;빅데이터와 새로운 접근법&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;방대한 규모 데이터 분석 가능&lt;/li&gt;
+  &lt;li&gt;비정형 데이터의 속성 수용&lt;/li&gt;
+  &lt;li&gt;인과적 사유 -&amp;gt; 상관관계적 수용&lt;br /&gt;
+ex)아마존의 도서추천 시스템, 기계번역의 개가&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;더이상 가설과 검증을 통해 접근을 하는 것이 아니라 데이터에 의한 접근이 필요하다.(원인을 몰라도 상관성의 발견이 가능하다.)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;데이터-사회의-기회와-과제&quot;&gt;데이터 사회의 기회와 과제&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;기회의-활용&quot;&gt;기회의 활용&lt;/h3&gt;
+&lt;p&gt;얼마나 다루는 사람의 능력과 통찰력이 있느냐&lt;br /&gt;
+(과학기술 지식 + 인문사회적 상상력 + 비판적 사고력)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;공익적-접근&quot;&gt;공익적 접근&lt;/h3&gt;
+&lt;p&gt;데이터 보유집단의 독점과 자의적 적용을 감시&lt;br /&gt;
+알고리즘처럼 개방성과 투명성 요구가 필요&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;빅데이터-시대의-능력&quot;&gt;빅데이터 시대의 능력&lt;/h3&gt;
+
+&lt;h5 id=&quot;빅데이터&quot;&gt;빅데이터&lt;/h5&gt;
+&lt;h5 id=&quot;데이터-리터러시&quot;&gt;데이터 리터러시&lt;/h5&gt;
+&lt;h5 id=&quot;분과별-전문지식의-시대&quot;&gt;분과별 전문지식의 시대&lt;/h5&gt;
+&lt;h5 id=&quot;데이터와-알고리즘의-관계&quot;&gt;데이터와 알고리즘의 관계&lt;/h5&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;데이터의-이용확대를-위한-네이버-데이터랩의-다양한-시도_김원용-이사&quot;&gt;데이터의 이용확대를 위한 네이버 데이터랩의 다양한 시도_김원용 이사&lt;/h1&gt;
+
+&lt;h3 id=&quot;datalab의-서비스-positioning&quot;&gt;DATALAB의 서비스 Positioning&lt;/h3&gt;
+
+&lt;p&gt;데이터랩에서는 공공데이터, 민간데이터에서 데잍터를 수집,정제, 발굴하여 융합,확산, 교육을 할 수 있도록 한다. 이를 활용하여 데이터기반 비즈니스 컨설팅 서비스의 개발을 목표한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;datalab-검색어로-알아보는-대한민국검색어-트랜드-조회&quot;&gt;DATALAB 검색어로 알아보는 대한민국:검색어 트랜드 조회&lt;/h3&gt;
+
+&lt;p&gt;주제어에 해당하는 검색어를 20개씩 지정하여 총 세 개의 주제어를 지정할 수 있다.&lt;br /&gt;
+또한 네이버 통합 검색과 쇼핑 검색으로 나누어 지정도 가능하다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;datalab-지역별-관심도&quot;&gt;DATALAB 지역별 관심도&lt;/h3&gt;
+
+&lt;p&gt;이런 데이터는 사전 시장조사를 지역별, 계절별 등으로 쉽게 가능하다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;datalab-검색어별-소비통계-기반-인기-커텐츠&quot;&gt;DATALAB 검색어별 소비통계 기반 인기 커텐츠&lt;/h3&gt;
+
+&lt;p&gt;특정 검색어에 대한 사람들의 생각을 예측할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;이 외에도 많은 데이터의 사용을 고민하고 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;bc카드의-관광-데이터-활용-사례_장석호-센터장bc카드&quot;&gt;BC카드의 관광 데이터 활용 사례_장석호 센터장(BC카드)&lt;/h1&gt;
+
+&lt;h3 id=&quot;bc카드의-빅데이터-컨설팅-서비스&quot;&gt;BC카드의 빅데이터 컨설팅 서비스&lt;/h3&gt;
+
+&lt;p&gt;카드 소비 데이터는 &lt;strong&gt;관광&lt;/strong&gt;, 증권, 고용시장 등을 설명할 수 있다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;창/폐업 추이 분석 / 지역 내 창업 업종 추천 / 창업 프로그램 지원&lt;/li&gt;
+  &lt;li&gt;지역 상권 소비 특성 분석 / 전통시장 활성화를 위한 소비 패턴 분석 / 소비 트렌드 변화에 맞는 대응 방향 제언&lt;/li&gt;
+  &lt;li&gt;거주민, 관광객 소비 특성 및 패턴 비교 분석 / 관광 활성화 및 지역 경제 부양을 위한 정책 제언 / 지역 축제 효과 분석 및 개선 방향 제언&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;bc카드-빅데이터의-차별성&quot;&gt;BC카드 빅데이터의 차별성&lt;/h3&gt;
+
+&lt;p&gt;국내 카드 시장점유율 1위라는 위상답게 국내 카드 소비자의 데이터를 많이 가지고 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;카드-데이터를-활용한-축제관광-효과-분석&quot;&gt;카드 데이터를 활용한 축제/관광 효과 분석&lt;/h3&gt;
+
+&lt;p&gt;카드 데이터를 통해 면세점의 소비가 많다는 것을 보고 중국인 여행객들의 소비가 많다는 것을 알 수 있었고, 월별 소비 추이를 비교해 보니 메르스나 사드와 같은 이슈가 터졌을 때, 중국인 소비가 줄어들고 늘어나는 것을 알 수 있다.&lt;br /&gt;
+또 중국인 관광객이 어느 지역에 머물었는지, 어디로 갔는지 알 수 있으므로 지자체에서 이용 가능한 데이터가 될 수 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;sk-cc-빅데이터-아카데미-운영-사례_박상용-팀장sk-cc&quot;&gt;SK C&amp;amp;C 빅데이터 아카데미 운영 사례_박상용 팀장(SK C&amp;amp;C)&lt;/h1&gt;
+
+&lt;p&gt;최근에는 어떤 분야이든 데이터가 화두가 되고 있다.&lt;br /&gt;
+따라서 서비스 제공업자, 현업자 모두 데이터에 대한 니즈가 증가 중이고 이를 활용한 체계적이고 실질적인 국내 교육 과정이 부족하다.&lt;br /&gt;
+향후 일반인에게도 아카데미 과정 공개 예정&lt;br /&gt;
+&lt;a href=&quot;https://bigdataacademy.kr/&quot;&gt;SK 빅데이터 아카데미&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;데이터-전문가-과정-소걔_백현-팀장강원창조경제혁신센터&quot;&gt;데이터 전문가 과정 소걔_백현 팀장(강원창조경제혁신센터)&lt;/h1&gt;
+
+&lt;h3 id=&quot;bigtory&quot;&gt;BIGTORY&lt;/h3&gt;
+
+&lt;p&gt;빅데이터 사이언티스트 전문가 양성과정&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;ai-tutor&quot;&gt;AI TUTOR&lt;/h3&gt;
+
+&lt;p&gt;인공지능 학습 전문 인력 양성과정&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;k-ict-빅데이터센터-교육-컨텐츠-소개_김배현-박사nia&quot;&gt;K-ICT 빅데이터센터 교육 컨텐츠 소개_김배현 박사(NIA)&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kbig.kr/&quot;&gt;K-ICT 빅데이터센터&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;데이터-활용-무엇이-중요한가_조경준-ceo크레딧데이터&quot;&gt;데이터 활용, 무엇이 중요한가?_조경준 CEO(크레딧데이터)&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kreditjob.com/&quot;&gt;크레딧잡&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;데이터를 통해 생활의 질을 향상시키고 있다. 
+데이터가 중요한 이유는 정보의 비대칭성 때문이다.&lt;br /&gt;
+생활의 질 향상은 정보비대칭성 제거로부터!! 데이터는 정보의 비대칭성을 제거할 수 있는 도구이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터-분석&quot;&gt;데이터 분석&lt;/h3&gt;
+
+&lt;p&gt;문제 정의 -&amp;gt; 필요 데이터 정의 -&amp;gt; 분석목표계량화&lt;br /&gt;
+ex) 저녁 뭐 먹을까? 어떻게 먹어야 싸지? -&amp;gt; 마트에 행사하는 제품은 뭐가 있지? -&amp;gt; 메뉴리스트, 각 메뉴당 소요 비용 및 시간&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;에너지-빅데이터-서비스_우범영-기획실장인코어드&quot;&gt;에너지 빅데이터 서비스_우범영 기획실장(인코어드)&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.enertalk.com/&quot;&gt;인코어드&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;에너지의 효율적인 활용 + 삶의 가치 향상&lt;br /&gt;
+전기 에너지 데이터를 모아, 세상에서 가장 큰 에너지 데이터 플랫폼을 만드는 것이 목표&lt;/p&gt;
+
+&lt;p&gt;OpenAPI and Services 제공&lt;/p&gt;
+
+&lt;h3 id=&quot;에너지-빅-데이터-플랫폼을-통해&quot;&gt;에너지 빅 데이터 플랫폼을 통해…&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;보기 어려운 에너지를 시각화&lt;/li&gt;
+  &lt;li&gt;지속가능한 소비자 행동의 변화&lt;/li&gt;
+  &lt;li&gt;에너지 이상의 가치 제공&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;에너지 이상의 가치&lt;/strong&gt; : 저녁 시간대에 집에 전기량이 많다면, 집 안에서 저녁식사를 먹는 가정이라 판단하여, 식재료를 추천 하는 등의 서비스를 제공&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[GDG DevFest Seoul 2016] 초보자를 위한 기계학습과 Tensorflow</title>
+   <link href="http://localhost:4000/2016/11/05/gdg-tensorflow/"/>
+   <updated>2016-11-05T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/11/05/gdg-tensorflow</id>
+   <content type="html">&lt;h3 id=&quot;머신러닝의-역사와-이론&quot;&gt;머신러닝의 역사와 이론&lt;/h3&gt;
+
+&lt;p&gt;컴퓨터는 Adaptive System이다.&lt;br /&gt;
+사람에 있어서 Adaptive System은 ‘뇌’&lt;br /&gt;
+30년대 처음 사람들이 Adaptive System을 연구했을 때, 오징어를 통해 모델링을 하였고, 이를 &lt;strong&gt;HH model&lt;/strong&gt;이라고 한다.&lt;br /&gt;
+HH model을 단순화하여 개량한 것이 &lt;strong&gt;FN model&lt;/strong&gt;, 그 후 &lt;strong&gt;ANN model&lt;/strong&gt;이라고 한다.&lt;br /&gt;
+70년대 &lt;strong&gt;STDP&lt;/strong&gt;라는 개념이 나왔고 이는 비슷한 작동을 하는 뉴런은 연결이 되고, 자극을 받을수록 발전한다는 것이다.&lt;br /&gt;
+이렇게 해서 생긴 것이 &lt;strong&gt;Neural Network&lt;/strong&gt;이다.&lt;br /&gt;
+원숭이를 통한 실험이 있었는데, 갓태어난 원숭이를 가로선만 있는 방안에 가두고 3개월을 키우면 그 후 세로선을 보여줘도 인식을 하지 못한다. 이 원숭이는 세로선의 존재 자체를 인식하지 못하는 것이다.&lt;br /&gt;
+Neural Network는 90년대에 발전하여 CNN, SOM, RNN 등이 생겼다 사라졌고, &lt;del&gt;돈과 시간의 투자로&lt;/del&gt; 현재 다시 부상 중이다.&lt;br /&gt;
+뉴런은 트랜지스터와 같이 입력 두 개를 받아 하나의 출력을 하는 모습을 가지고 있으며, 자극을 통해 특정한 path가 강화된다. 이 개념은 &lt;strong&gt;Neural Network + Machine Learning&lt;/strong&gt;의 개념이 되었다.&lt;br /&gt;
+Neural Network는 수 많은 정보 중에 특징을 가진 Feature를 찾아내고, 그 안에서 다시 Feature를 찾아내어 카테고리를 나누거나 기억을 하는 것이다.&lt;br /&gt;
+예를 들어 A가 1,1,3 이라는 숫자를 쓴다면 그것을 본 B는 A의 필체를 기억하는 것이 아니라 1,1,3이라는 숫자 데이터를 기억하는 것!!!&lt;br /&gt;
+Self-organizing map이란 차원을 줄이자는 아이디어이다. 차원이란 서로 오써거널한 영역을 의미하며, 격자 모양의 map 위에 어떠한 물체가 떨어진다고 하면, 이 물체를 피해서 격자를 재구성하는 것이다. 이는 &lt;em&gt;로봇 청소기&lt;/em&gt;에 사용되는 기술이다. (가구를 피해서 청소를 하는 똑똑한 청소기!) 근데…로봇 청소기에서 끝난 기술이다….&lt;br /&gt;
+다시 뉴런을 살펴보니 여러 층의 레이어가 존재하고 같은 레이어 안의 뉴런들은 서로 연결되어 있지 않지만 상위 레이어는 하위 레이어와 연결이 되어있다. 인간의 뉴런은 8개의 레이어를 가지고 있으며, 개발자들은 컴퓨터도 8개의 레이어로 만들면 되는 줄 알고 개발을 하였다…그러나 결국 망했다.&lt;br /&gt;
+2012년 이후, &lt;del&gt;돈 많은&lt;/del&gt; 구글이 22~27개의 레이어를 만들어보기 시작했고, 이는 결국 &lt;strong&gt;Deap Learning&lt;/strong&gt;이 된다.&lt;br /&gt;
+위에 개념이 현대에 정리된 것이&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;차원안에 의미있는 것을 인식하는 Embedding dimension&lt;/li&gt;
+  &lt;li&gt;복잡한 n차원을 최적화하는 Hyper dimension&lt;/li&gt;
+  &lt;li&gt;차원을 구분짓는 Hyper plane
+이 있다. (따로 조사 필요)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;머신러닝은 어렵구나….생물도 알고 수학도 알고 물리도 알아야하네……이론이 너무 어려워&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>[SW 스타트업 비지니스 특강] How Google’s Mission Is Driving Cloud Platform &amp; Machine Learning</title>
