@@ -13,21 +13,21 @@
 
 Project:
   name: Project
-  image: /public/img/nap.jpg
+  image: /public/img/background-1.jpg
   color: '#949667'
   description: >
     진행했던 프로젝트 내용을 포스팅
 
 Study:
   name: Study
-  image: /public/img/nap.jpg
+  image: /public/img/background-2.jpg
   color: '#949667'
   description: >
     공부 중인 내용을 포스팅
 
 Review:
   name: Review
-  image: /public/img/nap.jpg
+  image: /public/img/background-5.jpg
   color: '#949667'
   description: >
     특강, 강연 등을 듣고 난 후 포스팅

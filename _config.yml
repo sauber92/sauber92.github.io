@@ -32,7 +32,7 @@ description:         >
 sidebar_tags:        [Project, Study, Review]
 
 # Fallback image and color if not overwritten for tag or post
-image:               /public/img/nap.jpg
+image:               /public/img/background-3.jpg
 color:               '#A85641'
 
 # Fonts
