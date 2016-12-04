@@ -10,17 +10,50 @@ title: About
 {% include about-short.html author=site.author %}
 
 
-### 경력
+### 경력  
 
 |--------|---------------|
 | 11.02   | 진성고등학교 졸업  
-|12.03 ~  | 경희대학교 전자전파공학과 학부 입학  
+|12.03 ~  | 경희대학교 전자﹒전파공학과 학부 입학  
 |12.03 ~  | 경희대학교 컴퓨터공학과 다전공  
-|12.03 ~ | 경희대학교 전자전파공학과 학술 동아리 마로  
+|12.03 ~ | 경희대학교 전자﹒전파공학과 학술 동아리 마로  
 |13.03 ~ 14.12 | 육군 병장 만기 전역 (3군단, 103정보통신단)  
 |15.05 ~ | 경희대학교 [MESL(Mobile & Embedded System Lab)](http://mesl.khu.ac.kr/) 학부연구생  
-|15.09 ~ 16.02 | 경희대학교 전자전파공학과 학술 동아리 마로 회장  
-|16.03 ~ | 경희대학교 전자전파공학과 학술 동아리 학술부장  
+|15.09 ~ 16.02 | 경희대학교 전자﹒전파공학과 학술 동아리 마로 회장  
+|16.03 ~ | 경희대학교 전자﹒전파공학과 학술 동아리 학술부장  
 |16.06 ~ | IT 연합동아리 [넥스터즈(NEXTERS)](http://teamnexters.com/) 9기 개발자  
 
 ***
+
+### 수상  
+
+|----------|--------------|
+| 15.11.27 | 한이음 엑스포 2015 공모전 입선, 정보통신기술진흥센터장 |
+|          | 프로젝트 : BKBK [(동영상)](https://youtu.be/rTMsQeGkx3I) |
+| 16.02.04 | 2015 학과 설계경진대회(Who Is The First Mover?) 은상, 전자정보대학장 |
+|          | 프로젝트 : 도로노면파열정보수집기 |
+| 16.07.31 | 대학생 연합 해커톤 UNITHON 3RD, 한국과학창의재단 특별상 |
+|          | 프로젝트 : Mingginyu(밍기뉴) |
+| 16.08.21 | 2016 K-Global 스마트 디바이스톤 우수상, 사단법인 쓰리디프린팅연구조합 |
+|          | 프로젝트 : inSpot |
+
+***
+
+### 논문  
+
+[IoT 디바이스의 보안 관제 설계를 위한 공개 보안 도구의 유형 및 적용 방안 분석, An Analysis on Types and Application of Public Security Tools for IoT Device Security Control Design](http://www.eiric.or.kr/KeyDocs/tmp/FN_1606287096631.pdf)  
+2016년 한국컴퓨터종합학술대회 논문집  
+
+***
+
+### 관심분야  
+
+* ICT  
+* IoT  
+* Unix/Linux  
+* Embedded system  
+* WEB  
+* Raspberry Pi  
+* Node.js  
+* React.js  
+* React-native 
