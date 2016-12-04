@@ -4,7 +4,7 @@
  <title>sauber92's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2016-12-04T15:27:55+09:00</updated>
+ <updated>2016-12-04T22:23:28+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Junyoung Jung</name>
@@ -1161,6 +1161,356 @@ A. 텐서플로우는 성능때문에 씨언어 기반으로 만들어졌고, �
 &lt;blockquote&gt;
   &lt;p&gt;문서를 보고 질문사항이 있다면, 혹은 잘못된 사항이 있다면 연락주세요 &amp;gt;-&amp;lt;&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[2016 K-Glob 스마트디바이스톤] inSpot</title>
+   <link href="http://localhost:4000/2016/09/04/inspot/"/>
+   <updated>2016-09-04T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/09/04/inspot</id>
+   <content type="html">&lt;h2 id=&quot;공모전-당시-발표-자료&quot;&gt;공모전 당시 발표 자료&lt;/h2&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/mGPjyOgPhtVmHg&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/2016-kglobal-inspot&quot; title=&quot;[2016 K-global 스마트디바이스톤] inSpot&quot; target=&quot;_blank&quot;&gt;[2016 K-global 스마트디바이스톤] inSpot&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;최신-발표-자료&quot;&gt;최신 발표 자료&lt;/h2&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/xruTABBhyDYntC&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/maybee-inspot-69805235&quot; title=&quot;[Maybee] inSpot&quot; target=&quot;_blank&quot;&gt;[Maybee] inSpot&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j9xFvVKSiaI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;inSpot은 인스타그램의 해쉬태그를 기반의 스마트 액자입니다. 이 아이디어의 처음 생각은 2015년도에 다른 공모전을 나가기 위해 준비하다 떠오른 것이였습니다. 하지만 당시엔 저에게 아이디어를 구현시킬 개발 능력이 없었고 1년 후 해커톤을 통해 개발을 하게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/inspot-1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;학교 학술동아리 마로의 선배와, 넥스터즈에서 같은 조로 활동 중인 디자이너 누나를 섭외하여 프로젝트를 진행하였습니다.&lt;br /&gt;
+서버는 아파치와 PHP를 통해 개발하였고, 클라이언트는 HTML, CSS, Javascript, jQuery를 사용하였습니다.&lt;br /&gt;
+또한 3D프린팅을 통해 외형을 제작하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/inspot-2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/inspot-3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;결국 저희는 우수상을 수상하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/inspot-7.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;inSpot은 instant와 Spot을 합친 합성어로, inSpot#place와 inSpot#light로 구분됩니다.(16. 10. 12 변경) inSpot#place는 카페나 음식점, 미용실, 네일샵과 같이 서비스를 주로 제공하는 가게에 설치되어 마케팅의 역할을 수행하고,&lt;br /&gt;
+inSpot#light는 멀리 떨어져 사는 가족, 자신이 좋아하는 연예인의 계정을 등록하여 편하게 최신 사진을 볼 수 있는 장점이 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/inspot-4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/inspot-6.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;inSpot은 React.js와 Node.js를 통해 새롭게 Refactoring을 할 예정입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/inspot-5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[대학생 연합 해커톤 UNITHON 3RD] Mingginyu(밍기뉴)</title>
+   <link href="http://localhost:4000/2016/08/06/unithon-mingginyu/"/>
+   <updated>2016-08-06T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/08/06/unithon-mingginyu</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/Nexters/mingginyu&quot;&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/LzOtRphboungv&quot; width=&quot;668&quot; height=&quot;714&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/unithon-3rd-mingginyu&quot; title=&quot;[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_서비스 소개서&quot; target=&quot;_blank&quot;&gt;[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_서비스 소개서&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/lAH7ULRKC4AoWS&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/unithon-3rd-mingginyuppt&quot; title=&quot;[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_ppt&quot; target=&quot;_blank&quot;&gt;[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_ppt&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;첫 해커톤에 나가서 수상까지한 프로젝트입니다. 해커톤의 팀은 제가 활동 중인 &lt;a href=&quot;http://teamnexters.com/&quot;&gt;Nexters(넥스터즈)&lt;/a&gt; 사람들과 연결되었고 저희는 IoT 개발을 하기로 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/mingginyu-4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;저는 팀에서 임베디드 개발자로 역할을 부여받아, 아두이노와 라즈베리파이에 센서를 연결하여 웹서버(MS Azure, &lt;del&gt;발표 피피티에는 AWS로 되어있는데 잘못되었습니다&lt;/del&gt;)로 전달하는 것을 개발하였습니다. 그리고 웹 클라이언트를 라즈베리에 연결된 모니터를 통해 보여주는 것을 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;아두이노는 토양수분센서를 연결하여 라즈베리파이에 센서 측정값을 전달하게 하였고, 라즈베리파이는 온습도센서, 초음파센서의 센서 측정값과 아두이노에서 받은 토양수분센서 측정값을 phthon으로 Azure에 보냈습니다. 아두이노만 토양수분센서를 사용한 이유는 라즈베리파이가 아날로그 핀을 사용할 수 없는데, 토양수분센서가 아날로그 핀을 사용하기 때문입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Mingginyu(밍기뉴)&lt;/strong&gt;는 스마트 화분입니다. 하지만 기존의 스마트 화분과의 차이점은, 기존 스마트화분이 &lt;em&gt;자동으로 물을 주는 기능&lt;/em&gt;을 중요시하는 반면, 밍기뉴는 &lt;em&gt;사용자와 교감하는 스마트화분&lt;/em&gt;입니다.&lt;/p&gt;
+
+&lt;p&gt;밍기뉴는 평소엔 오늘의 날씨정보만을 보여주지만, 사용자가 가까이 다가가면 현재 화분 속 토양에 수분량을 그림과 감정표현을 통해 알려줘 사용자에게 물 주는 시기를 알려줍니다. 또한 식물을 몇일 동안 키웠는지, 현재 방 안의 온도와 습도는 어느정도인지 파악이 쉽도록 UI가 구성되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/mingginyu-2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;또한, 가까이 다가간 상태에서 밍기뉴에게 인사를 하면 이를 인지하여 대답을 해줍니다.&lt;br /&gt;
+&lt;del&gt;하지만 이 기능은 완벽하게 작동하지 않습니다ㅜㅜㅠ&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/mingginyu-3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RAKVhlfUBJU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[C++] 6. Function2</title>
+   <link href="http://localhost:4000/2016/05/11/maro-programming6/"/>
+   <updated>2016-05-11T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/05/11/maro-programming6</id>
+   <content type="html">&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/tGKVqjbJuL54Hd&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/c6-function2-69800573&quot; title=&quot;[C++]6 function2&quot; target=&quot;_blank&quot;&gt;[C++]6 function2&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[C++] 5. Function</title>
+   <link href="http://localhost:4000/2016/05/04/maro-programming5/"/>
+   <updated>2016-05-04T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/05/04/maro-programming5</id>
+   <content type="html">&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/uU7e4mmxiUf3kH&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/c5-function&quot; title=&quot;[C++]5 function&quot; target=&quot;_blank&quot;&gt;[C++]5 function&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[C++] 4. Review</title>
+   <link href="http://localhost:4000/2016/04/27/maro-programming4/"/>
+   <updated>2016-04-27T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/04/27/maro-programming4</id>
+   <content type="html">&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/i2vQ4va5gvsU3F&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/c4-review&quot; title=&quot;[C++]4 review&quot; target=&quot;_blank&quot;&gt;[C++]4 review&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[C++] 3. Loop Statement</title>
+   <link href="http://localhost:4000/2016/04/06/maro-programming3/"/>
+   <updated>2016-04-06T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/04/06/maro-programming3</id>
+   <content type="html">&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/iAowyp9wp7bplH&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/c3-loop-statement&quot; title=&quot;[C++]3 loop statement&quot; target=&quot;_blank&quot;&gt;[C++]3 loop statement&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[C++] 2. Variables and Selection Statement</title>
+   <link href="http://localhost:4000/2016/03/30/maro-programming2/"/>
+   <updated>2016-03-30T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/03/30/maro-programming2</id>
+   <content type="html">&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/E1XgpcF864VNWR&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/c2-variables-andselectionstatement&quot; title=&quot;[C++]2 variables andselectionstatement&quot; target=&quot;_blank&quot;&gt;[C++]2 variables andselectionstatement&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[C++] 1. Ready to be Programmer</title>
+   <link href="http://localhost:4000/2016/03/16/maro-programming1/"/>
+   <updated>2016-03-16T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/03/16/maro-programming1</id>
+   <content type="html">&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/1UrdaHXin1A0oz&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/c1-ready-tobeprogrammer&quot; title=&quot;[C++]1 ready tobeprogrammer&quot; target=&quot;_blank&quot;&gt;[C++]1 ready tobeprogrammer&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[2015 전자과공모전] 도로 노면 파열 정보 수집기</title>
+   <link href="http://localhost:4000/2016/02/06/khuee/"/>
+   <updated>2016-02-06T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/02/06/khuee</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/img/project/khuee-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;저희의 주제는 &lt;strong&gt;“도로 노면 파열 정보 수집기”&lt;/strong&gt;입니다.&lt;br /&gt;
+저희 경희대학교 국제캠퍼스엔 버스도 많이 다니고, 건설 중인 건물이 있어서 중장비가 많이 돌아다닙니다. 그래서 그런지 도로가 많이 파열되어 있습니다.&lt;br /&gt;
+그로인해 도로를 이동하는 차량들은 불편함을 느끼고 있지만, 이 도로의 수선은 이루어지고 있지 않습니다. 따라서 자동차가 이동하면서 파열된 도로의 정보를 수집하면 어떨까? 라는 생각으로 프로젝트를 진행하였습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;scenario&quot;&gt;Scenario&lt;/h3&gt;
+
+&lt;p&gt;한국의 교토사고 사망자 수는 OECD 회원국 중 2위라 한다.  교통사고의 원인에는 여러가지가 있겠으나 노면이 파열 된 도로도 한 몫을 한다고 생각한다.&lt;br /&gt;
+한국도로공사에서는 이렇게 수선이 필요한 도로를 찾기 위해 따로 인력을 두고 있으며, 국토교통부에서는 민원 접수를 할 수 있는 APP을 따로 만들어 발행하였지만 APP의 사용도는 현저히 떨어진다.&lt;/p&gt;
+
+&lt;p&gt;따라서 일정 운전자의 동의를 얻어 그들의 자동차에 센서를 부착한 후, 파손된 도로 정보를 자동으로 수집하여 한국도로공사로 전송을 할 수 있는 시스템을 개발하여 신속한 도로의 수선이 가능할 수 있는 프로젝트를 생각하였다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Develop Board&lt;/td&gt;
+      &lt;td&gt;Language&lt;/td&gt;
+      &lt;td&gt;OS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Raspberry Pi2 Model B&lt;/td&gt;
+      &lt;td&gt;C, HTML, mySQL&lt;/td&gt;
+      &lt;td&gt;raspbian 8(jessie) 15.11.21&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ultra Wave Sensor&lt;/td&gt;
+      &lt;td&gt;- 도로를 향하여 3개의 초음파 센서를 나란히 배치&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;- 3개의 센서의 값이 다르면 도로가 파열되었다 가정&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GPS Module&lt;/td&gt;
+      &lt;td&gt;초음파 센서로 도로가 파열된 것을 감지하면, GPS 모듈을 통해 위치 정보 저장&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;일단 라즈베리파이를 개발보드로 사용하여, 적외선 센서로 도로의 파열정도를 센싱하고 GPS 모듈을 통해 위치 정보를 데이터베이스에 저장한다.&lt;/p&gt;
+
+&lt;p&gt;웹을 통해 데이터베이스에 있는 정보가 자동 업로드가 되어 한국도로공사에서 쉽게 파악할 수 있게 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/khuee-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이 아이디어의 경재적 이점으로는 먼저 국가적 측면에서 대한민국의 교통사고 2위 국가 오명을 개선할 수 있으며,&lt;br /&gt;
+한국도로공사는 정보수집을 원활히 할 수 있으므로 생상선이 향상된다.&lt;/p&gt;
+
+&lt;p&gt;또한 센싱에 참여하는 운전자는 미리 파열된 도로의 리스트를 알고 있으므로 안전운전이 가능하고,&lt;br /&gt;
+한국도로공사에서 제공하는 인센티브를 얻을 수 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;use-case-diagram&quot;&gt;Use case diagram&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/khuee-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;activity-diagram&quot;&gt;Activity diagram&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/khuee-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;여담&quot;&gt;여담&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/khuee-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;빵판을 통해 프로토 타입을 만들고 전시회에 참여했습니다. 위에 사진에서 오른쪽 밑에 보이시나요?&lt;br /&gt;
+교수님들께서 이것저것 물어보셨는데….저희가 만든 프로토 타입은 문제가 많습니다.&lt;br /&gt;
+교수님들께서 저희에게 하신 질문으로는 다음 사항들이 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;자동차가 고속으로 이동을 하면 측정이 가능한가?&lt;/li&gt;
+  &lt;li&gt;해커가 데이터베이스에 접근하여 정보를 수정하면 오히려 생산성이 떨어질텐데 보안적인 측면은 신경을 썼나?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;저희는 두 가지 사항 모두 신경을 쓰지 못했습니다. 그래서 공모전 수상을 못할 것이라 예상했지만,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/khuee-6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/khuee-7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;은상을 받았습니다.&lt;/p&gt;
+
+&lt;p&gt;현재 시중에 출시된 아이디어가 아니라는 점과 발표를 잘했다는 점에서 큰 점수를 받은거 같아요 ^^*&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/lDCQZAsuWOWDsy&quot; width=&quot;668&quot; height=&quot;714&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/2015-69803907&quot; title=&quot;[2015전자과공모전] 프로젝트 보고서&quot; target=&quot;_blank&quot;&gt;[2015전자과공모전] 프로젝트 보고서&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/prxtPyk79tHzCd&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/2015-ppt-69803906&quot; title=&quot;[2015전자과공모전] ppt&quot; target=&quot;_blank&quot;&gt;[2015전자과공모전] ppt&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[2015 한이음 공모전] Bring your Key? Band your Key!</title>
+   <link href="http://localhost:4000/2015/12/30/haneium/"/>
+   <updated>2015-12-30T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2015/12/30/haneium</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/img/project/haneium-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/haneium-2.jpg&quot; alt=&quot;한이음 엑스포 2015&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이 프로젝트는 제가 처음으로 시도한 작품으로, 긴 시간을 투자한 애증의 작품입니다…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/haneium-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/haneium-4.jpg&quot; alt=&quot;한이음 엑스포 2015&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;저희의 주제는 멘토님께서 선정하신 &lt;strong&gt;“스마트 워치 기반의 스마트 키 구현”&lt;/strong&gt;으로 스마트 워치를 자동차의 스마트키로 대체하지는 프로젝트입니다.&lt;/p&gt;
+
+&lt;p&gt;저희는 이 아이디어를 &lt;strong&gt;“BKBK(Bring your Key? Band your Key!)”&lt;/strong&gt;라는 이름으로 프로젝트를 진행하였습니다.&lt;/p&gt;
+
+&lt;p&gt;다음은 BKBK 소개 UCC 영상입니다. &lt;del&gt;이 영상도 제가 만들었어요&lt;/del&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rTMsQeGkx3I&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;scenario&quot;&gt;Scenario&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/haneium-5.jpg&quot; alt=&quot;프로젝트 기획 프리젠테이션 그림&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;휴대하기 어려운 자동차 키를, 항상 챙기는 스마트기기(스마트폰, 스마트워치 등)로 대체하여 언제 어디서든 자동차를 원격 제어할 수 있도록 하다.&lt;/p&gt;
+
+&lt;p&gt;또한 스마트기기가 자동차와 통신이 되어 사용자가 위험에 처했을 때 외부에 도움을 청할 수 있도록 한다.&lt;/p&gt;
+
+&lt;p&gt;기존의 스마트키에서도 볼 수 있는 문 개폐, 온﹒습도 관리, 시동 원격 제어 기능을 버튼을 이용하여 쉽게 제어할 수 있도록 한다.&lt;/p&gt;
+
+&lt;p&gt;또한 기존의 스마트키는 외부 번호로 위험을 알리는 것에 그쳤다면, &lt;strong&gt;BKBK&lt;/strong&gt;는 기존과 달리 위험을 감지하였을 때 다양한 방법(외부 번호로 경보, 라이트, 경적)으로 외부에 위험을 알리도록 한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;여담&quot;&gt;여담&lt;/h3&gt;
+
+&lt;p&gt;15년 3월, 저는 군대를 전역하고 학교에 복학한 후 불투명한 미래에 고민이 많았습니다.&lt;/p&gt;
+
+&lt;p&gt;그래서 공모전에 도전해보고 공부를 시도해 보자!!! 라는 생각으로 무작정 한이음 프로젝트에 지원했습니다.&lt;br /&gt;
+멘토링을 통해 멘토의 지식을 배우고 공모전 참여의 기회도 얻을 수 있다는 점에서 저에게 딱이였던 활동이였죠&lt;/p&gt;
+
+&lt;p&gt;또 웨어러블 디바이스의 출시가 가속되고 있는 상황이였고, 스마트카도 뜨거운 감자로 떠오르고 있던 당시에 멘토님의 아이디어가 굉장히 좋다고 생각하여 기쁜 마음으로 프로젝트 신청을 하였습니다.&lt;br /&gt;
+하지만, 저희가 프로젝트를 시작하고 두 달 뒤…현대자동차와 삼성이 손을 잡고 똑같은 개념의 제품을 출시하였습니다 :-(&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/haneium-6.jpg&quot; alt=&quot;현대자동차 X 삼성전자의 콜라보레이션&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;또한 6명이 한팀으로 시작한 멘토링이 결국 12명의 사람으로 늘어났고, 다른 팀원 분들이 취업준비로 바쁘셔서, 당시 학부 2학년이였던 제가 하드웨어 회로 구성부터 소프트웨어 코딩까지 전과정을 맡게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;그 때는 너무 힘들었지만, 지금 생각해보면 큰 도움이 되었습니다. 제가 이 프로젝트를 통해 배울 수 있었던 점들은 다음과 같습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;인텔 에디슨&lt;/strong&gt;이라는 당시 출시된지 4달밖에 안 된 따끈한 개발보드를 사용한 점&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;앱인벤터&lt;/strong&gt;를 사용하여 안드로이드 어플리케이션 개발을 해본 점&lt;/li&gt;
+  &lt;li&gt;블루투스 통신을 공부해본 점&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;파이썬&lt;/strong&gt;이라는 언어를 공부한 점&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/haneium-7.jpg&quot; alt=&quot;프로젝트 제작 과정&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;하지만 안타까운 점도 많았습니다. 프로젝트 기획은 스마트 워치를 사용하는 것이였지만 구현을 못해서 안드로이드 어플로 그쳐야했습니다.&lt;br /&gt;
+또한 이 어플리케이션은 안드로이드 스튜디오를 사용한 개발이 아닌, 블록 다이어그램을 사용한 앱인벤터의 개발이여서 정밀한 조작은 불가능합니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 요즘 배우고 있던 UML을 당시에도 알고있었다면 좀 더 완성도 있는 설계를 통해 작품이 개발될 수 있었을텐데 아쉽습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/haneium-8.jpg&quot; alt=&quot;한이음 엑스포 2015, 프로젝트 프리젠테이션&quot; /&gt;&lt;/p&gt;
+
 </content>
  </entry>
  

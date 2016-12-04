@@ -29,13 +29,13 @@ title: About
 
 |----------|--------------|
 | 15.11.27 | 한이음 엑스포 2015 공모전 입선, 정보통신기술진흥센터장 |
-|          | 프로젝트 : BKBK [(동영상)](https://youtu.be/rTMsQeGkx3I) |
+|          | 프로젝트 : [BKBK](/2015/12/30/haneium/) [(동영상)](https://youtu.be/rTMsQeGkx3I) |
 | 16.02.04 | 2015 학과 설계경진대회(Who Is The First Mover?) 은상, 전자정보대학장 |
-|          | 프로젝트 : 도로노면파열정보수집기 |
+|          | 프로젝트 : [도로노면파열정보수집기](/2016/02/06/khuee/) [(PPT)](http://www.slideshare.net/JunyoungJung8/2015-ppt-69803906) |
 | 16.07.31 | 대학생 연합 해커톤 UNITHON 3RD, 한국과학창의재단 특별상 |
-|          | 프로젝트 : Mingginyu(밍기뉴) |
+|          | 프로젝트 : [Mingginyu(밍기뉴)](/2016/08/06/unithon-mingginyu/) [(PPT)](http://www.slideshare.net/JunyoungJung8/unithon-3rd-mingginyuppt) [(동영상)](https://youtu.be/RAKVhlfUBJU)|
 | 16.08.21 | 2016 K-Global 스마트 디바이스톤 우수상, 사단법인 쓰리디프린팅연구조합 |
-|          | 프로젝트 : inSpot |
+|          | 프로젝트 : [inSpot](/2016/09/04/inspot/) [(PPT)](http://www.slideshare.net/JunyoungJung8/2016-kglobal-inspot) [(동영상)](https://youtu.be/j9xFvVKSiaI)|
 
 ***
 
