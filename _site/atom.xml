@@ -4,7 +4,7 @@
  <title>sauber92's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2016-12-04T22:35:35+09:00</updated>
+ <updated>2016-12-10T16:32:00+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Junyoung Jung</name>
@@ -789,6 +789,98 @@ Self-organizing map이란 차원을 줄이자는 아이디어이다. 차원이�
  </entry>
  
  <entry>
+   <title>[KHU-Unix System Programming] auto_backup</title>
+   <link href="http://localhost:4000/2016/10/29/khu-autobackup/"/>
+   <updated>2016-10-29T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/10/29/khu-autobackup</id>
+   <content type="html">&lt;h2 id=&quot;1-기능&quot;&gt;1. 기능&lt;/h2&gt;
+
+&lt;p&gt;이 프로그램은 현재 디렉토리의 있는 모든 내용을 tar를 통해 묶은 후, sftp를 통해 원격 서버로 전송하는 프로그램입니다.&lt;br /&gt;
+백업은 3분에 한번씩 이루어지며, 90분(수업시간)동안 동작 후 종료 됩니다.&lt;br /&gt;
+백업 파일의 이름은 “백업시간(year+month+day).tar” 로 되어있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-사용법&quot;&gt;2. 사용법&lt;/h2&gt;
+
+&lt;h3 id=&quot;2-1-rsa-키-생성&quot;&gt;2-1. rsa 키 생성&lt;/h3&gt;
+
+&lt;p&gt;local server에서 rsa 키를 생성 하여, remote server에 등록을 해야 자동 로그인이 됩니다.&lt;br /&gt;
+rsa 키 생성은 local server에서&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;id@local:~$ ssh-keygen -t rsa  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;라 입력하면 되고, &lt;strong&gt;~/.ssh/id_rsa.pub&lt;/strong&gt; 내용을 확인합니다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;id@local:~$ cat ~/.ssh/id_rsa.pub
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;이 내용을 복사 후 remote server의 &lt;strong&gt;~/.ssh/authorized_keys&lt;/strong&gt; 에 입력하면 됩니다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;id@remote:~$ vi ~/.ssh/authorized_keys
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2-2-다운로드-및-권한-부여&quot;&gt;2-2. 다운로드 및 권한 부여&lt;/h3&gt;
+
+&lt;p&gt;backup.sh를 다운 받은 후, shell에서&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;id@local:~$ chmod 755 backup.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;와 같이 실행권한을 부여합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2-3-코드-수정&quot;&gt;2-3. 코드 수정&lt;/h3&gt;
+
+&lt;p&gt;vi editor와 같은 편집기를 사용하여 backup.sh를 수정합니다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HOST='User remote server ip'   
+USER='User id'
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;위의 변수를 사용자에 맞게 수정하면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;만약, 전체 폴더의 백업을 원하지 않는다면 다음 코드에서&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tar -cvzf $NAME.tar *
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; 을 지우고 자신이 원하는 파일의 명을 입력하면 됩니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2-4-실행&quot;&gt;2-4. 실행&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;id@local:~$ ./backup.sh &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;와 같이 실행을 하면 됩니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-제작&quot;&gt;3. 제작&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;제작자 : 정준영(경희대학교 전자전파공학과, 컴퓨터공학과 학부)&lt;/li&gt;
+  &lt;li&gt;연락 : jjy920517@gmail.com, &lt;a href=&quot;https://github.com/sauber92&quot;&gt;github&lt;/a&gt;, &lt;a href=&quot;https://www.facebook.com/profile.php?id=100003258917365&quot;&gt;Facebook&lt;/a&gt;, &lt;a href=&quot;https://sauber92.github.io&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;언어 : bash shell script language&lt;/li&gt;
+  &lt;li&gt;실행 환경 : Ubuntu 12.04.5 LTS&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>[SW 스타트업 비지니스 특강] How Google’s Mission Is Driving Cloud Platform &amp; Machine Learning</title>
    <link href="http://localhost:4000/2016/10/17/swbz-google/"/>
    <updated>2016-10-17T00:00:00+09:00</updated>
@@ -1332,7 +1424,17 @@ inSpot#light는 멀리 떨어져 사는 가족, 자신이 좋아하는 연예인
    <link href="http://localhost:4000/2016/02/06/khuee/"/>
    <updated>2016-02-06T00:00:00+09:00</updated>
    <id>http://localhost:4000/2016/02/06/khuee</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/img/project/khuee-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/lDCQZAsuWOWDsy&quot; width=&quot;668&quot; height=&quot;714&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/2015-69803907&quot; title=&quot;[2015전자과공모전] 프로젝트 보고서&quot; target=&quot;_blank&quot;&gt;[2015전자과공모전] 프로젝트 보고서&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/prxtPyk79tHzCd&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/2015-ppt-69803906&quot; title=&quot;[2015전자과공모전] ppt&quot; target=&quot;_blank&quot;&gt;[2015전자과공모전] ppt&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/khuee-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;저희의 주제는 &lt;strong&gt;“도로 노면 파열 정보 수집기”&lt;/strong&gt;입니다.&lt;br /&gt;
 저희 경희대학교 국제캠퍼스엔 버스도 많이 다니고, 건설 중인 건물이 있어서 중장비가 많이 돌아다닙니다. 그래서 그런지 도로가 많이 파열되어 있습니다.&lt;br /&gt;
@@ -1428,15 +1530,6 @@ inSpot#light는 멀리 떨어져 사는 가족, 자신이 좋아하는 연예인
 
 &lt;p&gt;현재 시중에 출시된 아이디어가 아니라는 점과 발표를 잘했다는 점에서 큰 점수를 받은거 같아요 ^^*&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/lDCQZAsuWOWDsy&quot; width=&quot;668&quot; height=&quot;714&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
-&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/2015-69803907&quot; title=&quot;[2015전자과공모전] 프로젝트 보고서&quot; target=&quot;_blank&quot;&gt;[2015전자과공모전] 프로젝트 보고서&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/prxtPyk79tHzCd&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
-&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/JunyoungJung8/2015-ppt-69803906&quot; title=&quot;[2015전자과공모전] ppt&quot; target=&quot;_blank&quot;&gt;[2015전자과공모전] ppt&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/JunyoungJung8&quot;&gt;Junyoung Jung&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
 </content>
  </entry>
  
