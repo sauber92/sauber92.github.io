@@ -4,13 +4,166 @@
  <title>sauber92's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2016-12-23T17:38:12+09:00</updated>
+ <updated>2016-12-23T21:05:46+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Junyoung Jung</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>[KHU-Unix System Programming] Raspberry Pi Music Player</title>
+   <link href="http://localhost:4000/2016/12/22/khu-raspi-music-player/"/>
+   <updated>2016-12-22T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/12/22/khu-raspi-music-player</id>
+   <content type="html">&lt;h2 id=&quot;0-개요&quot;&gt;0. 개요&lt;/h2&gt;
+
+&lt;p&gt;Linux server와  Raspberry Pi의 TCP Socket 통신을 통한 음악 플레이어&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;조원
+    &lt;ul&gt;
+      &lt;li&gt;컴퓨터공학과 오xx&lt;/li&gt;
+      &lt;li&gt;컴퓨터공학과 장xx&lt;/li&gt;
+      &lt;li&gt;컴퓨터공학과 하xx&lt;/li&gt;
+      &lt;li&gt;컴퓨터공학과/전자전파공학과 정준영&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-프로젝트-내용&quot;&gt;1. 프로젝트 내용&lt;/h2&gt;
+
+&lt;p&gt;본 프로젝트는 Linux서버와 Raspberry Pi의 Socket 통신을 통해 음악 파일을 전달 받고, IR Remote Controller를 사용하여 음악의 재생이 가능하도록 한 “라즈베리파이 뮤직 플레이어”이다. Raspberry Pi에는 LCD 모듈과 IR 센서가 연결되어 있으며 IR Remote Controller의 Play 버튼을 누르게 되면, LCD 모듈의 글씨가 변하면서 노래가 재생된다.&lt;/p&gt;
+
+&lt;h3 id=&quot;server&quot;&gt;Server&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OS&lt;/td&gt;
+      &lt;td&gt;Ubuntu 12.04.05 LTS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Program Language&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;cleint&quot;&gt;Cleint&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Device&lt;/td&gt;
+      &lt;td&gt;Raspberry Pi 3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OS&lt;/td&gt;
+      &lt;td&gt;Raspbian GNU/Linux 8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LCD Module&lt;/td&gt;
+      &lt;td&gt;QAPASS 1602A&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IR Sensor&lt;/td&gt;
+      &lt;td&gt;CHQ 1838&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Speaker&lt;/td&gt;
+      &lt;td&gt;Hamburger mini speaker&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Program Language&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Client에 전원이 인가되면 “Hello USP”라는 문구를 LCD Module에 출력한다. 이 후, Server로 부터 TCP Socket 통신을 통해 음악 파일(example.wav)를 받게 되면, IR Remote Controller의 신호를 기다린다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/usp-1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/public/img/project/usp-2.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/public/img/project/usp-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-실행결과&quot;&gt;2. 실행결과&lt;/h2&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IBv3-7qRPxQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-github-저장소&quot;&gt;3. Github 저장소&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sauber92/khu_USP_RaspPiMusicPlayer&quot;&gt;suaber92/khu_USP_RaspPiMusicPlayer&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[KHU-Embedded System Design] Avoid Balls!!!</title>
+   <link href="http://localhost:4000/2016/12/21/khu-avoid-balls/"/>
+   <updated>2016-12-21T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/12/21/khu-avoid-balls</id>
+   <content type="html">&lt;h2 id=&quot;0-개요&quot;&gt;0. 개요&lt;/h2&gt;
+
+&lt;p&gt;Atmega128과 HC-06 Bluetooth module을 사용한, 안드로이드 스마트폰 게임&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hardware Embedded board
+    &lt;ul&gt;
+      &lt;li&gt;개발보드 : Atmega128&lt;/li&gt;
+      &lt;li&gt;개발언어 : C, Assembly&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Android Smart phone
+    &lt;ul&gt;
+      &lt;li&gt;Android version : Android 6.0 Marshmallow&lt;/li&gt;
+      &lt;li&gt;Tool : App Inventor&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-설계-내용&quot;&gt;1. 설계 내용&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-1-기능-설명&quot;&gt;1-1. 기능 설명&lt;/h3&gt;
+
+&lt;p&gt;Atmega128에 UART1에 해당하는 PD2(RXD1), PD3(TXD1) 포트에 HC-06 Bluetooth module을 연결한다. 또한, 키보드와 LCD도 연결한다. 이렇게 구성된 임베디드 보드는 안드로이드 스마트폰 어플리케이션과 블루투스 통신을 한다. 임베디드 보드의 키패드 “2, 8, 4, 6”번 키는 각각 “위, 아래, 왼쪽, 오른쪽”에 맵핑되어, 안드로이드 어플리케이션에 전달되고 안드로이드에선느 이를 이용하여 공 피하기 게임이 진행된다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-2-embedded-board&quot;&gt;1-2. Embedded Board&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;LCD : 기본 정보(개발자 이름, 어플리케이션 명) 출력&lt;/li&gt;
+  &lt;li&gt;키패드 : “Avoid Balls!!!” 에서 유저를 움직일 수 있는 방향키&lt;/li&gt;
+  &lt;li&gt;HC-06 : 블루투스 모듈. UART1을 통해 Atmega128이 안드로이드 스마트폰과 블루투스 통신&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/esd-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1-3-app-inventor&quot;&gt;1-3. App Inventor&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/project/esd-2.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/public/img/project/esd-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-실행결과&quot;&gt;2. 실행결과&lt;/h2&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-eO0VZtBdYg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-github-저장소&quot;&gt;3. Github 저장소&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sauber92/khu_EmbeddedSystemDesign&quot;&gt;suaber92/khu_EmbeddedSystemDesign&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>[후마니타스특강] 이순신의 삶과 리더십</title>
@@ -28,6 +181,251 @@
 &lt;p&gt;명량에서 대승을 거둔 이순신은 왜군에게는 두려움의 대상이 되었고, 명나라 장수 양호도 존경 을 아끼지 않는 영웅이 되었다. 그러나 조선의 국왕 선조는 이순신에게 어떠한 표창도 내리지 않 았다. 하지만 이순신은 이를 섭섭해하지 않았다. 결과를 계산한 행동은 하지 않았던 것이다. 우리 는 이러한 이순신의 모습을 본받아, 우리가 이룬 민주주의를 통해 보상을 받으려는 생각이 아닌, 다시는 무너지지 않는 마음을 가져야 한다.&lt;/p&gt;
 
 &lt;p&gt;스스로의 힘을 바탕으로, 바른 길로서의 승부를 통해 얻은 성공은 언제나 무너지지 않는 자신 의 것이 된다고 한다. “미천한 신하는 아직 죽지 않았으며, 적이 감히 모멸하지는 못할 것입니다.” 라는 이순신의 명언처럼, 우리는 아직 정의를 잃지 않았으며, 당당히 민주주의를 지킬 수 있었다. 이러한 이순신의 삶을 통해 배울 수 있던 교훈은, 2016년 그의 동상이 바라보는 광화문에서 대한 민국 국민들을 모을 수 있었고, 국가가 옳지 못한 길로 나아가는 것을 막을 수 있던 것이라 생각 한다.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>IoTivity on ARTIK10</title>
+   <link href="http://localhost:4000/2016/12/03/IoTivity-on-ARTIK10/"/>
+   <updated>2016-12-03T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2016/12/03/IoTivity-on-ARTIK10</id>
+   <content type="html">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+
+&lt;p&gt;저는 ARTIK 보드가 처음 공개 되었을 때 굉장히 기대가 컸습니다. 이미 Arduino, Raspberry Pi는 일반인들도 많이 사용하는 개발보드가 되었으나, Intel Edison이나 Beagle Bone Black과 같은 보드는 상대적으로 사용 경험이 있는 사람은 수가 적었기 때문이죠. 이렇게 개발보드 시장(?)을 Arduino와 Raspberry Pi가 독점하는 상황에서 삼성전자가 만든 개발보드인 ARTIK이 공개가 되었고, 과연 성공을 할지 궁금했습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 IoT 시대에 맞춰 독자적인 개발보드를 만들었다는 점에선 좋은 판단이라 생각했어요. 그리고 이 ARTIK을 쓰임새에 맞게 여러 버전으로 만든 것과, IoTivity를 접목시킨 것이 ARTIK의 장점과 특징이라고 생각합니다. IoTivity Wiki에 들어가 보면 Arduino와 Raspberry Pi에서도 IoTivity를 사용할 수 있다고 명시되어 있으나(&lt;a href=&quot;https://wiki.iotivity.org/hardware&quot;&gt;IoTivity Wiki - Hardware&lt;/a&gt;), SOSCON 2016에서 듣기론 &lt;em&gt;Arduino는 전문적인 개발보드가 아니기 때문에 IoTivity를 지원하지 않을 예정이다&lt;/em&gt; 라는 말을 듣기도 하였고, Raspberry Pi에서는 제가 직접 IoTivity의 빌드를 시도했으나 실패한 경험이 있습니다. 아직 IoTivity Wiki가 자세한 설명을 해주는 친절한 Wiki page가 아니라 어려웠던거 같아요.&lt;em&gt;(2016년 11월 기준)&lt;/em&gt; 하지만 ARTIK 보드에 IoTivity를 빌드하는 방법은 Samsung Open Source Group에 친절히 설명이 나와 있드라구요!! &lt;del&gt;그래도 엄청해맸습니다 ㅜㅜㅜㅠ&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;따라서 지난 SOSCON 2016에서도 ARTIK과 IoTivity에 대한 강연을 집중적으로 듣고 왔고(&lt;a href=&quot;https://sauber92.github.io/2016/11/17/soscon-iotivity-bigpicture/&quot;&gt;SOSCON2016 리뷰글&lt;/a&gt;), 연구실에서도 한 번 해보라는 지시가 있어서 &lt;strong&gt;ARTIK10 보드에 IoTivity를 빌드&lt;/strong&gt;하는 것을 시도했습니다.&lt;/p&gt;
+
+&lt;p&gt;저는 &lt;a href=&quot;https://wiki.iotivity.org/&quot;&gt;IoTivity Wiki&lt;/a&gt;, &lt;a href=&quot;https://wiki.tizen.org/wiki/Tizen_On_ARTIK&quot;&gt;TIZEN Wiki&lt;/a&gt;, &lt;a href=&quot;https://blogs.s-osg.org/&quot;&gt;Samsung Open Source Group&lt;/a&gt;에 포스팅 되어 있는 자료를 통해 정보를 얻었으며 실제로 해보면서 겪은 문제점을 공유하겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;주의할 점&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;하나의 명령어로 다음 패키지들을 설치할 수도 있다. Host PC에서는 문제가 되지 않지만 이상하게 ARTIK10에서는 하나의 명령어로 패키지를 설치를 하면, Install이 되지 않는 패키지가 있었다. 따라서 이 포스팅에서는 하나씩 따로 설치를 하도록 하겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step1-yocto-build&quot;&gt;Step1. Yocto Build&lt;/h2&gt;
+
+&lt;p&gt;먼저 Yocto Linux란, Open source로 공개되어 있는 Embedded linux system입니다. 저는 Intel Edison을 사용했을 때, Yocto를 접해봤습니다.(&lt;a href=&quot;http://localhost:4000/2015/12/30/haneium/&quot;&gt;(2015 한이음 공모전 BKBK)&lt;/a&gt;)  그러나 그 당시엔 Intel에서 미리 만든 Yocto 이미지를 사용하였고, 이번엔 아예 Yocto를 빌드하는 하는 것부터 시작해 보겠습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-0-크로스-컴파일-환경&quot;&gt;1-0. 크로스 컴파일 환경&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Host PC&lt;/strong&gt; : Ubuntu 14.03 LTS&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;필요 패키지&lt;/strong&gt;
+     * git&lt;br /&gt;
+     * gawk&lt;br /&gt;
+     * chrpath&lt;br /&gt;
+     * texinfo&lt;br /&gt;
+     * qemu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~$ sudo apt-get install git
+ubuntu@ubuntu:~$ sudo apt-get install gawk
+ubuntu@ubuntu:~$ sudo apt-get install chrpath
+ubuntu@ubuntu:~$ sudo apt-get install texinfo
+ubuntu@ubuntu:~$ sudo apt-get install qemu qemu-user qemu-user-static
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;1-1-git-clone-poky&quot;&gt;1-1. git clone poky&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Poky&lt;/strong&gt; : Yocto project의 레퍼런스 시스템, Poky를 빌드하여 리눅스 이미지를 생성하거나 필요한 애플리케이션을 추가할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~$ git clone -b jethro http://git.yoctoproject.org/git/poky  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;1-2-poky-디렉토리-이동-git-clone-meta-artik&quot;&gt;1-2. Poky 디렉토리 이동, git clone meta-artik&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~$ cd poky  
+ubuntu@ubuntu:~/poky$ git clone -b master https://github.com/resin-os/meta-artik    
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;1-3-reular-image-빌드&quot;&gt;1-3. reular image 빌드&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky$ .. /oe-init-build-env  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1-4-confbblayersconf-수정&quot;&gt;1-4. conf/bblayers.conf 수정&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky/build$ vi conf/bblayers.conf  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;TIVE_DIR := &quot;${@os.path.abspath(os.path.dirname(d.getVar('FILE', True)) + '/../../..')}&quot;  
+# LAYER_CONF_VERSION is increased each time build/conf/bblayers.conf  
+# changes incompatibly  
+LCONF_VERSION = &quot;6&quot;  
+ 
+BBPATH = &quot;${TOPDIR}&quot;  
+BBFILES ?= &quot;&quot;  
+ 
+BBLAYERS ?= &quot; \  
+  ${RELATIVE_DIR}/poky/meta \  
+  ${RELATIVE_DIR}/poky/meta-yocto \  
+  ${RELATIVE_DIR}/poky/meta-yocto-bsp \  
+  &quot;  
+BBLAYERS_NON_REMOVABLE ?= &quot; \  
+  ${RELATIVE_DIR}/poky/meta \  
+  ${RELATIVE_DIR}/poky/meta-yocto \  
+  &quot;  
+ 
+BBLAYERS += &quot;${RELATIVE_DIR}/poky/meta-artik“  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;yocto-build&quot;&gt;Yocto Build&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky/build$ MACHINE=artik10 bitbake core-image-minimal  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step2-iotivity-추가&quot;&gt;Step2. IoTivity 추가&lt;/h2&gt;
+
+&lt;h3 id=&quot;2-1-git-clone-meta-oic&quot;&gt;2-1. git clone meta-oic&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky/build$ cd ../../poky  
+ubuntu@ubuntu:~/poky$ git clone -b 1.1.0 http://git.yoctoproject.org/cgit/cgit.cgi/meta-oic  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;buildconfbblayersconf-에-추가&quot;&gt;build/conf/bblayers.conf 에 추가&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky$ vi build/conf/bblayers.conf  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...  
+
+# IoTivity 추가  
+BBLAYERS += &quot;${RELATIVE_DIR}/poky/meta-oic“    
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;buildconflocalconf-에-다음-문장-추가&quot;&gt;build/conf/local.conf 에 다음 문장 추가&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky$ vi build/conf/local.conf  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...  
+
+# IoTivity  
+IMAGE_INSTALL_append = &quot; iotivity iotivity-resource iotivity-service&quot;  
+# IoTivity Sample application  
+IMAGE_INSTALL_append = &quot; iotivity-resource-samples iotivity-service-samples&quot;     
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;regular-image-빌드&quot;&gt;regular image 빌드&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky$ ../oe-init-build-env  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;rebuild&quot;&gt;Rebuild&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky/build$ MACHINE=artik10 bitbake core-image-minimal  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step3-sd카드에-이미지-옮기기&quot;&gt;Step3. SD카드에 이미지 옮기기&lt;/h2&gt;
+
+&lt;h3 id=&quot;3-1-sd카드-위치-확인&quot;&gt;3-1. SD카드 위치 확인&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky/build$ lsblk  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;3-2-disk-변수-등록&quot;&gt;3-2. disk 변수 등록&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky/build$ disk=/dev/sd[SD카드 위치]  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;3-3-qemu를-통한-이미지-변환&quot;&gt;3-3. qemu를 통한 이미지 변환&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;qemu&lt;/strong&gt; : 가상 아키텍쳐 에뮬레이션&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ubuntu@ubuntu:~/poky/build$ sudo dd if=tmp/deploy/images/artik10/core-image-minimal-artik10.artik-sdimg bs=32M oflag=sync of=$disk  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step4-artik10-부팅&quot;&gt;Step4. ARTIK10 부팅&lt;/h2&gt;
+
+&lt;h3 id=&quot;4-0-artik10-모습&quot;&gt;4-0. ARTIK10 모습&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;초기 상태 : SW2 = 모두 왼쪽 / PSW1 = Off&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-1-artik10을-sd카드-부팅모드로-변경&quot;&gt;4-1. ARTIK10을 SD카드 부팅모드로 변경&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SD카드를 넣고, SW2를 모두 오른쪽으로 옮김&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PSW1을 ON&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-2-debug-usb를-컴퓨터와-연결-후-연결-포트를-찾음&quot;&gt;4-2. Debug USB를 컴퓨터와 연결 후, 연결 포트를 찾음&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Windows 컴퓨터의 경우 : 장치관리자 &amp;gt; 포트(COM&amp;amp;LPT) &amp;gt; USP Serial Port&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-3-터미널-프로그램ex-putty-xshell-etc을-통한-serial-연결&quot;&gt;4-3. 터미널 프로그램(ex. putty, xshell, etc)을 통한 Serial 연결&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-4-sd카드-이미지로-artik10-부팅&quot;&gt;4-4. SD카드 이미지로 ARTIK10 부팅&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SW3를 잠시 눌러주면, 부팅과정이 터미널에 보임&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-9.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/public/img/study/iotivity-10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;login
+    &lt;ul&gt;
+      &lt;li&gt;ID : root&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/study/iotivity-11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </content>
  </entry>
