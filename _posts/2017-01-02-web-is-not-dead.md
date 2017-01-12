@@ -1,0 +1,15 @@
+---
+layout: post
+title: 'The Web is NOT Dead'
+tags: [Study]
+description: >
+  경희대학교 영어2 강좌(Prof. Liet Hau)에서 작성한 영어 논설문입니다.
+---
+
+A prediction that the ‘Web’ will no longer evolve and disappear was posted on ‘Wired magazine’ on August 17, 2010. Because of the declining web usage over a decade, the article says that platforms other than the web will evolve. The reason is that it is changing from past desktop PC based web to smart device such as ipad based application. Of course, the web will continue to exist, but the proportion will decrease. The advantage is that the web is freely available. And consumers do not have to pay money separately. However, since the industrial society, new things have always appeared and disappeared. The Internet will evolve from Facebook, which is downloaded from the App store, and from other companies, rather than Google's Web. And people will be willing to pay and use apps that are good to use. In the future, the article will tell you that the web will be getting smaller and the app will grow.  
+
+I disagree with this article. First reason is that the Internet is still active in the web.   In the article it said, “Kiss your browser goodbye.” (Wired magazine, 1997). But, the fastest and most rapidly changing computer programming language is ‘javascript’, which can make web. And the technology to make the web like an app was created. Second reason is that the app market is growing in size, but it is not making much money. Because we didn’t pay money for buy app. Chris Anderson and Michael Wolff (2010) said “Consumers weren’t motivated by display ads, as evidenced by the share of the online audience that bothered to click on them.” But the ads also advertise from the app, not just from the web. And companies like Google and Facebook are still making money through advertising. Consumers take it naturally. And they hesitate to buy paid apps.  
+
+I predict that the web will continue to evolve in the future. In fact, as the article claims, the web disappears and the app tries to dominate the Internet world. However, the word "4th industrial revolution" came out of the development of the web. And the web is becoming increasingly available in other areas. Web is because of its connectivity, flexibility and usability. Fifty years later, web is not a technology, but a tool that contributes to other industries. Therefore, it will be used not only in desktop PCs and smart phones but also in home appliances such as TVs and refrigerators. And the society of the Internet of Things (IoT) that we commonly say will come. Smart cars and smart cities will also be invented on the web. And IoE (Internet of Everything) society will come. As a result, we believe that web technology will continue to grow and benefit people's lives.  
+
+*Ref. “THE WEB IS DEAD. LONG LIVE THE INTERNET”. https://www.wired.com/2010/08/ff_webrip/*

@@ -4,13 +4,37 @@
  <title>sauber92's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-01-01T19:31:41+09:00</updated>
+ <updated>2017-01-12T18:43:27+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Junyoung Jung</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>[소논문] 오픈 소스 소프트웨어가 공동체 사회에 끼치는 영향</title>
+   <link href="http://localhost:4000/2017/01/11/paper/"/>
+   <updated>2017-01-11T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2017/01/11/paper</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/sauber92/sauber92.github.io/blob/master/_posts/Junyoung-paper.pdf&quot;&gt;정준영, “오픈 소스 소프트웨어가 공동체 사회에 끼치는 영향”, 2017. 01&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Web is NOT Dead</title>
+   <link href="http://localhost:4000/2017/01/02/web-is-not-dead/"/>
+   <updated>2017-01-02T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2017/01/02/web-is-not-dead</id>
+   <content type="html">&lt;p&gt;A prediction that the ‘Web’ will no longer evolve and disappear was posted on ‘Wired magazine’ on August 17, 2010. Because of the declining web usage over a decade, the article says that platforms other than the web will evolve. The reason is that it is changing from past desktop PC based web to smart device such as ipad based application. Of course, the web will continue to exist, but the proportion will decrease. The advantage is that the web is freely available. And consumers do not have to pay money separately. However, since the industrial society, new things have always appeared and disappeared. The Internet will evolve from Facebook, which is downloaded from the App store, and from other companies, rather than Google’s Web. And people will be willing to pay and use apps that are good to use. In the future, the article will tell you that the web will be getting smaller and the app will grow.&lt;/p&gt;
+
+&lt;p&gt;I disagree with this article. First reason is that the Internet is still active in the web.   In the article it said, “Kiss your browser goodbye.” (Wired magazine, 1997). But, the fastest and most rapidly changing computer programming language is ‘javascript’, which can make web. And the technology to make the web like an app was created. Second reason is that the app market is growing in size, but it is not making much money. Because we didn’t pay money for buy app. Chris Anderson and Michael Wolff (2010) said “Consumers weren’t motivated by display ads, as evidenced by the share of the online audience that bothered to click on them.” But the ads also advertise from the app, not just from the web. And companies like Google and Facebook are still making money through advertising. Consumers take it naturally. And they hesitate to buy paid apps.&lt;/p&gt;
+
+&lt;p&gt;I predict that the web will continue to evolve in the future. In fact, as the article claims, the web disappears and the app tries to dominate the Internet world. However, the word “4th industrial revolution” came out of the development of the web. And the web is becoming increasingly available in other areas. Web is because of its connectivity, flexibility and usability. Fifty years later, web is not a technology, but a tool that contributes to other industries. Therefore, it will be used not only in desktop PCs and smart phones but also in home appliances such as TVs and refrigerators. And the society of the Internet of Things (IoT) that we commonly say will come. Smart cars and smart cities will also be invented on the web. And IoE (Internet of Everything) society will come. As a result, we believe that web technology will continue to grow and benefit people’s lives.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ref. “THE WEB IS DEAD. LONG LIVE THE INTERNET”. https://www.wired.com/2010/08/ff_webrip/&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>2016년 회고 및 2017년 계획</title>
@@ -177,7 +201,7 @@
    <link href="http://localhost:4000/2016/12/27/khu-reservation/"/>
    <updated>2016-12-27T00:00:00+09:00</updated>
    <id>http://localhost:4000/2016/12/27/khu-reservation</id>
-   <content type="html">&lt;p&gt;12월 31일, &lt;a href=&quot;http://teamnexters.com/&quot;&gt;넥스터즈(NEXTERS)&lt;/a&gt;는 10기 활동을 시작합니다. 이 날 모임을 위해 사용할 장소를 위해 &lt;a href=&quot;https://khuis.khu.ac.kr/java/jsp/hjss/reservation/index.html&quot;&gt;경희대학교 장소예약시스템&lt;/a&gt;을 이용해보았습니다. 국제캠퍼스 학생인 저는 이 장소예약시스템을 사용해 본 경험이 없는데, 서울캠퍼스 학생들은 자주 이용한다고 합니다.&lt;/p&gt;
+   <content type="html">&lt;p&gt;12월 31일, &lt;a href=&quot;http://teamnexters.com/&quot;&gt;넥스터즈(NEXTERS)&lt;/a&gt;는 10기 활동을 시작합니다. 이 날 모임에서 사용할 장소 예약을 위해 &lt;a href=&quot;https://khuis.khu.ac.kr/java/jsp/hjss/reservation/index.html&quot;&gt;경희대학교 장소예약시스템&lt;/a&gt;을 이용해보았습니다. 국제캠퍼스 학생인 저는 이 장소예약시스템을 사용해 본 경험이 없는데, 서울캠퍼스 학생들은 자주 이용한다고 합니다.  &lt;/p&gt;
 
 &lt;p&gt;하지만 제가 사용을 해본 결과, 처음 사용한 사람은 이용하기 어려울 것 같습니다. 먼저 UX(User Experience)면에서 굉장히 안좋습니다. 그리고 일시적인 문제인지…계속 이러한 문제가 있는지는 모르겠으나, 기능적으로도 치명적인 문제가 있습니다. 바로 “장소 검색”을 시도했을 때, 새로운 창이 생성되면서 무한 로딩에 빠진다는 것입니다. 그리고 이 무한 로딩에 빠지게 되면 기존 페이지의 작동이 멈춥니다. 어떠한 버튼을 눌러도 작동하지 않고, 새로고침도 안됩니다. 기존에 정보를 입력한 것이 있다면 저장도 안되고 다 날려버리는 것이죠….이러한 오류때문에 장소예약을 하는데 너무 많은 시간을 소모했네요 ㅜㅜㅜㅠ&lt;/p&gt;
 

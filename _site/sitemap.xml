@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/2017/01/11/paper/</loc>
+<lastmod>2017-01-11T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2017/01/02/web-is-not-dead/</loc>
+<lastmod>2017-01-02T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/2017/01/01/newyear/</loc>
 <lastmod>2017-01-01T00:00:00+09:00</lastmod>
 </url>
@@ -128,5 +136,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/Study/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/naverff0ab72aca1261539bc04b2d5d943db7.html</loc>
+<lastmod>2017-01-01T19:32:54+09:00</lastmod>
 </url>
 </urlset>
