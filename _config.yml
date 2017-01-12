@@ -14,7 +14,7 @@ url:                 https://sauber92.github.io
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl:             
+baseurl:
 
 title:               sauber92's Blog
 
@@ -24,7 +24,7 @@ paginate_path:       '/page-:num/'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
-  Hello I'm sauber92.  
+  Hello I'm sauber92.
 
   sauber92의 블로그입니다.
 
@@ -46,7 +46,7 @@ author:
   name:              'Junyoung Jung'
 
   # This photo will be used in the about section
-  photo:             https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/13237805_968492259936062_3366953170761019237_n.jpg?oh=2ac19ea625d2c85516b989447f3e1af3&oe=58C175E0 
+  photo:             https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/13237805_968492259936062_3366953170761019237_n.jpg?oh=2ac19ea625d2c85516b989447f3e1af3&oe=58C175E0
 #  photo2x:           @2x.jpeg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -97,7 +97,7 @@ author:
 google_analytics_id: 'UA-88344613-1'
 
 # Setting a disqus subdomain will enable the comment section
-# disqus:            <username>
+ disqus:            sauber92
 
 kramdown:
   math_engine:       mathjax
