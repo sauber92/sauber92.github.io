@@ -97,7 +97,7 @@ author:
 google_analytics_id: 'UA-88344613-1'
 
 # Setting a disqus subdomain will enable the comment section
- disqus:            sauber92
+ #disqus:            
 
 kramdown:
   math_engine:       mathjax
