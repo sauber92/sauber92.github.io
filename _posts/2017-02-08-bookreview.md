@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[서평] 데이터베이스 첫걸음(저.미크, 기무라 메이지)를 읽고'
-tags: [Study]
+tags: [Review]
 description: >
   한빛미디어 IT 전문서 서평단 "나도 리뷰어"에 당첨되어 받은 **데이터베이스 첫걸음**의 리뷰입니다.
 ---
