@@ -4,13 +4,200 @@
  <title>sauber92's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-02-08T23:12:28+09:00</updated>
+ <updated>2017-02-20T19:06:54+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Junyoung Jung</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>[경희대 마로] 2016년 학술제 웹페이지</title>
+   <link href="http://localhost:4000/2017/02/18/maro-homepage/"/>
+   <updated>2017-02-18T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2017/02/18/maro-homepage</id>
+   <content type="html">&lt;h2 id=&quot;경희대학교-마로&quot;&gt;경희대학교 마로&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;학술동아리 마로는 전자﹒전파공학과을 전공하면서 자칫 이론에 그치기 쉬운 학과 내용을 실제로 적용해보며 전공에 대한 이해를 높이는 것을 목표로 삼고 있는 동아리입니다.&lt;/p&gt;
+
+&lt;p&gt;저는 이 동아리의 2015년도 1학기 부회장, 2학기 회장을 하였고 학술부장을 겸임하였습니다. 이때 제가 정한 학술행사가 바로 &lt;strong&gt;학술제&lt;/strong&gt;입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;학술제&quot;&gt;학술제&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;학술제란 동아리원끼리 팀을 구성하여 관심분야 혹은 도전하고 싶은 주제에 대해 공부하고 개발을 진행하며 프로젝트 경험을 쌓는 활동입니다. 사실 제가 입학하기 전에 이미 학술제는 존재하였습니다. 하지만 그 학술제는 2010년을 마지막으로 더 이상 명맥을 이어가지 못했고, 저는 회장이 되자마자 이 학술제를 부활시키기 위해 노력하였습니다.&lt;/p&gt;
+
+&lt;p&gt;제가 맨 처음 한 일은 2015년 여름방학에 &lt;a href=&quot;http://ee.ewha.ac.kr/&quot;&gt;이화여자대학교 전자전기공학과 동아리 E.E.I&lt;/a&gt;와 연락을 하여 동아리연합을 이뤄낸 것입니다. 마로 동아리원들에게 자극을 주면서 참여를 유도하기위해 타학교의 비슷한 형태의 동아리 연합이 좋을 것 같다 판단하였고, 저희 마로보다 실적과 경험이 풍부한 E.E.I는 최고의 파트너였습니다.&lt;/p&gt;
+
+&lt;p&gt;여름방학이 끝나고 학기가 시작하면서 학술제의 부활을 알리고 자율적으로 팀을 이뤄 프로젝트를 진행하게 하였습니다. 프로젝트가 발전할 수 있도록 매달 세미나도 하였습니다. 그리고 2015년 12월 5일, 졸업생 선배님들과 E.E.I 학생들을 초청하여 학술제를 열었습니다.&lt;/p&gt;
+
+&lt;p&gt;이 때 미리 발표자료를 책자로 만들어서 학과 교수님들에게 나눠드렸는데, 학과장님이 좋게 보셔서 저희 &lt;a href=&quot;http://enr.khu.ac.kr/index.php?hCode=BOARD&amp;amp;page=view&amp;amp;idx=314&amp;amp;bo_idx=1&amp;amp;hCode=BOARD&amp;amp;bo_idx=1&amp;amp;sfl=&amp;amp;stx=&quot;&gt;학술제와 관련된 기사&lt;/a&gt;를 학과 홈페이지에 기재해 주시기도 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-1.jpeg&quot; alt=&quot;&amp;lt;2015년 학술제 당시 제작했던 포스터&amp;gt;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;&amp;lt;2015년 학술, 당시 내가 제작한 포스터&amp;gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-2.jpeg&quot; alt=&quot;&amp;lt;2015년 학술제에서 직접 만들었던 아두이노&amp;gt;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;&amp;lt;2015년 학술제, 직접 커스텀하여 빵판에 만든 아두이노&amp;gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2016년도-학술제&quot;&gt;2016년도 학술제&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;2016년도 학술제는 15년도의 학술제에서 얻은 교훈을 바탕으로 설계에도 집중할 수 있도록 하였습니다. 2016-1학기에는 제가 동아리원들에게 UML 다이어그램을 알려주고 시나리오부터, Usecase Diagram, Activity Diagram, Squence Diagram 등을 그리면서 프로젝의 설계를 하였습니다. 2016-2학기에는 이를 바탕으로 개발을 했습니다.&lt;/p&gt;
+
+&lt;p&gt;2016년도 학술제와 관련된 자료는 &lt;a href=&quot;https://github.com/KHU-MARO/2016-academic-seminar&quot;&gt;Club Maro 깃헙&lt;/a&gt;에 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;&amp;lt;2016-1학기 학술제, 경희대학교에서 마로와 E.E.I 단체사진&amp;gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;&amp;lt;2016-1학기 학술제, 내가 제작한 포스터&amp;gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;&amp;lt;2016-2학기 학술제, 이화여자대학교에서 마로와 E.E.I 단체사진&amp;gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2016-마로-학술제-웹페이지&quot;&gt;2016 마로 학술제 웹페이지&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;막상 깃헙에 마로 단체를 만들어두고 레파지토리를 관리하다 보니까, 홍보용 웹페이지 만들어볼까? 하는 생각이 났습니다. 이런 웹페이지가 있다면 동아리를 홍보할 때도 도움이 될 것이고, 나중에 동아리원들이 다른사람에게 자신이 진행한 프로젝트를 소개할 때 좋겠다는 생각이 들었습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 다음 조건들을 만족시킬 수 있는 웹페이지의 제작을 생각했습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;서버를 따로 유지할 수 없으니 클라우드를 이용한다. 대신 지불할 돈도 없으니 무료 호스팅을 고려한다.&lt;/li&gt;
+  &lt;li&gt;마로를 간단하게 소개할 수 있는 문구와 사진이 들어간다.&lt;/li&gt;
+  &lt;li&gt;이번 학술제에 나왔던 8개 조의 프로젝트를 소개할 수 있도록 한다.&lt;/li&gt;
+  &lt;li&gt;Club maro 깃헙으로 쉽게 이동이 가능하게 한다. 단, 새로운 브라우져 창을 띄워 이동할 수 있도록 한다.&lt;/li&gt;
+  &lt;li&gt;관리자(=나)에게 메일을 보낼 수 있도록 한다.&lt;/li&gt;
+  &lt;li&gt;데스크탑뿐만 아니라, 테블릿, 모바일에서도 가독이 좋게 한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;코딩-시작&quot;&gt;코딩 시작!&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;먼저 첫번째 고려사항( &lt;em&gt;1. 서버를 따로 유지할 수 없으니 클라우드를 이용한다. 대신 지불할 돈도 없으니 무료 호스팅을 고려한다.&lt;/em&gt; )을 만족하기 위해 &lt;a href=&quot;https://www.heroku.com/&quot;&gt;heroku&lt;/a&gt;와 &lt;a href=&quot;https://pages.github.com/&quot;&gt;githubpage&lt;/a&gt;를 생각했습니다. 헤로쿠는 전에 &lt;a href=&quot;http://khumaro.herokuapp.com/&quot;&gt;마로 동방 예약시스템&lt;/a&gt;를 만들기 위해 써보았고, 깃헙페이지는 현재 이 블로그를 운영하면서 만들어봤습니다. 결과적으로는 좀 더 쉽게 가기 위해 깃헙페이지를 통해 호스팅을 하게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 깃헙페이지와 같이 정적 웹페이지로 만들다 되니 &lt;em&gt;5. 관리자(=나)에게 메일을 보낼 수 있도록 한다.&lt;/em&gt; 를 하는데 있어 어려움이 닥쳤습니다. 따로 메일 서버를 만들어서 연결시켜야하나…고민을 하며 자료를 찾아보니, 다행히 &lt;a href=&quot;https://formspree.io/&quot;&gt;formspree&lt;/a&gt;라는 것이 있어 쉽게 해결 할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;6. 데스크탑뿐만 아니라, 테블릿, 모바일에서도 가독이 좋게 한다.&lt;/em&gt; 이와 관련해서는 방학동안 html/css 공부를 해서 미디어쿼리를 사용하여 제작할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;나머지 고려사항들도 &lt;a href=&quot;http://teamnexters.com/&quot;&gt;넥스터즈 홈페이지&lt;/a&gt;를 참고하여 레이아웃을 만들고 스크롤 이벤트 등을 주어 코딩을 했습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;느낀점&quot;&gt;느낀점&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;2015년도 학술제에서 저는 회장, 학술부장, 학술제 팀장의 세가지 일을 병행하며 하다보니 안그래도 바쁜데 어느 하나 신경을 쓰기 어려웠습니다. 학술부장으로서 다른 팀이 잘 진행되는지 상황도 알아야하고 도움도 줘야했으며 저희 팀의 프로젝트 완성도 해야했죠. 그리고 동아리 회장으로서 교수님들에게 홍보도 하고 E.E.I와 지속적으로 자료를 공유하느라 힘들었습니다.&lt;/p&gt;
+
+&lt;p&gt;그래서 2016년도 학술제는 학술부장으로서 충실히 하기 위해 따로 팀을 만들지 않았습니다. 그런데 제가 계획하고 가르쳤던 학술제이고 후배들을 가리치면서 코딩을 하다보니까 너무 아쉬웠습니다. 그러던참에 이 웹페이지를 제작하며 무엇을 하였다는 자부심을 가지게 되어 다행입니다.&lt;/p&gt;
+
+&lt;p&gt;제가 처음 웹을 공부했던 것은 2013년 겨울, 군대 안에서 html/css책을 보면서입니다. 하지만 이 때는 코드도 깔끔하지 못했고, 레이아웃도 별로 였습니다. 하지만 이번 기회에 정적페이지를 만드는 연습을 충분히 할 수 있었습니다. 특히 미디어쿼리를 다뤄 반응형/적응형 웹페이지를 만드는 프로젝트를 하니 재밌었습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;개발스펙&quot;&gt;개발스펙&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용언어 : HTML, CSS, Javascript&lt;/li&gt;
+  &lt;li&gt;라이브러리 : jQuery 3.1.1 , jQuery UI 1.12.1&lt;/li&gt;
+  &lt;li&gt;호스팅 : githubpagess&lt;/li&gt;
+  &lt;li&gt;글꼴 : Noto Sans&lt;/li&gt;
+  &lt;li&gt;로고 이미지
+    &lt;ul&gt;
+      &lt;li&gt;파비콘 : &lt;a href=&quot;https://github.com/KHU-MARO/maro-logo/blob/master/example/maro-circle-example.jpeg&quot;&gt;maro-circle&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;로고(데스크탑/모바일 버전) : &lt;a href=&quot;https://github.com/KHU-MARO/maro-logo/blob/master/example/maro-letter-example.jpeg&quot;&gt;maro-letter&lt;/a&gt; 수정 후 사용&lt;/li&gt;
+      &lt;li&gt;오픈그래프 : &lt;a href=&quot;https://github.com/KHU-MARO/maro-logo/blob/master/example/maro-letter-example.jpeg&quot;&gt;maro-letter&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;테스트&quot;&gt;테스트&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;기기 테스트
+    &lt;ul&gt;
+      &lt;li&gt;데스크탑(13인치, 27인치 모니터)&lt;/li&gt;
+      &lt;li&gt;테블릿(9.7인치 아이패드에어2)&lt;/li&gt;
+      &lt;li&gt;모바일(4.7인치 아이폰6, 5.1인치 갤럭시s7)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;브라우져 테스트
+    &lt;ul&gt;
+      &lt;li&gt;크롬(Mac, Window, iOS, Android)&lt;/li&gt;
+      &lt;li&gt;사파리(Mac, iOS)&lt;/li&gt;
+      &lt;li&gt;파이어폭스(Mac, Window)&lt;/li&gt;
+      &lt;li&gt;익스플로러(Window)&lt;/li&gt;
+      &lt;li&gt;엣지(Window)&lt;/li&gt;
+      &lt;li&gt;웨일(Window)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;url&quot;&gt;URL&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;홈페이지 : https://khu-maro.github.io&lt;/li&gt;
+  &lt;li&gt;깃헙 레파지토리 : https://github.com/KHU-MARO/KHU-MARO.github.io&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>[서평] 데이터베이스 첫걸음(저.미크, 기무라 메이지)를 읽고</title>
@@ -83,7 +270,8 @@
 
 &lt;h2 id=&quot;마무리하며&quot;&gt;마무리하며&lt;/h2&gt;
 
-&lt;p&gt;데이터베이스란 어려운 주제가 아니였다. 지금까지 겁먹었던 내 자신이 부끄럽다. 요즘 특히 빅데이터, AI, 챗봇 등의 주제가 뜨고 있기 때문에 &lt;strong&gt;데이터베이스&lt;/strong&gt;를 알고 있는 것만으로도 내가 할 수 있는 일들이 많아 질 것이다. 좋은 기회를 얻어 리뷰 서평을 쓸 수 있었고, 공부할 수 있어 기쁘다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+데이터베이스란 어려운 주제가 아니였다. 지금까지 겁먹었던 내 자신이 부끄럽다. 요즘 특히 빅데이터, AI, 챗봇 등의 주제가 뜨고 있기 때문에 &lt;strong&gt;데이터베이스&lt;/strong&gt;를 알고 있는 것만으로도 내가 할 수 있는 일들이 많아 질 것이다. 좋은 기회를 얻어 리뷰 서평을 쓸 수 있었고, 공부할 수 있어 기쁘다.&lt;/p&gt;
 
 </content>
  </entry>
