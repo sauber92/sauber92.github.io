@@ -32,12 +32,12 @@ description: >
 
 <br/>
 
-![<2015년 학술제 당시 제작했던 포스터>](../public/img/project/marohomepage-1.jpeg)  
+![<2015년 학술제 당시 제작했던 포스터>](/public/img/project/marohomepage-1.jpeg)  
 *<2015년 학술, 당시 내가 제작한 포스터>*
 
 <br/>
 
-![<2015년 학술제에서 직접 만들었던 아두이노>](../public/img/project/marohomepage-2.jpeg)  
+![<2015년 학술제에서 직접 만들었던 아두이노>](/public/img/project/marohomepage-2.jpeg)  
 *<2015년 학술제, 직접 커스텀하여 빵판에 만든 아두이노>*
 
 ***  
@@ -54,17 +54,17 @@ description: >
 
 <br/>
 
-![](../public/img/project/marohomepage-3.jpeg)  
+![](/public/img/project/marohomepage-3.jpeg)  
 *<2016-1학기 학술제, 경희대학교에서 마로와 E.E.I 단체사진>*  
 
 <br/>  
 
-![](../public/img/project/marohomepage-4.jpeg)  
+![](/public/img/project/marohomepage-4.jpeg)  
 *<2016-1학기 학술제, 내가 제작한 포스터>*  
 
 <br/>
 
-![](../public/img/project/marohomepage-5.jpeg)  
+![](/public/img/project/marohomepage-5.jpeg)  
 *<2016-2학기 학술제, 이화여자대학교에서 마로와 E.E.I 단체사진>*  
 
 <br/>  

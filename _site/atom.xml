@@ -4,7 +4,7 @@
  <title>sauber92's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-02-20T19:06:54+09:00</updated>
+ <updated>2017-02-20T19:15:17+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Junyoung Jung</name>
@@ -43,12 +43,12 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-1.jpeg&quot; alt=&quot;&amp;lt;2015년 학술제 당시 제작했던 포스터&amp;gt;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;/public/img/project/marohomepage-1.jpeg&quot; alt=&quot;&amp;lt;2015년 학술제 당시 제작했던 포스터&amp;gt;&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;&amp;lt;2015년 학술, 당시 내가 제작한 포스터&amp;gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-2.jpeg&quot; alt=&quot;&amp;lt;2015년 학술제에서 직접 만들었던 아두이노&amp;gt;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;/public/img/project/marohomepage-2.jpeg&quot; alt=&quot;&amp;lt;2015년 학술제에서 직접 만들었던 아두이노&amp;gt;&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;&amp;lt;2015년 학술제, 직접 커스텀하여 빵판에 만든 아두이노&amp;gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -65,17 +65,17 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;/public/img/project/marohomepage-3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;&amp;lt;2016-1학기 학술제, 경희대학교에서 마로와 E.E.I 단체사진&amp;gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;/public/img/project/marohomepage-4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;&amp;lt;2016-1학기 학술제, 내가 제작한 포스터&amp;gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../public/img/project/marohomepage-5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;/public/img/project/marohomepage-5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;&amp;lt;2016-2학기 학술제, 이화여자대학교에서 마로와 E.E.I 단체사진&amp;gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
