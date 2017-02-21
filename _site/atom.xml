@@ -4,7 +4,7 @@
  <title>sauber92's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-02-21T19:38:58+09:00</updated>
+ <updated>2017-02-21T19:45:54+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Junyoung Jung</name>
@@ -94,6 +94,17 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;ICT 분야라는 것이 워낙 광범위하여 평생을 공부하며 살아야하는 것 같습니다. 그런 점에서 인프런과 같은 싸이트는 단비 같은 존재라 생각합니다. 하지만 알아야 할 것은 많다고 모두 어려운 것은 아니라는걸 파이어베이스를 사용하면서 느꼈습니다. 파이어베이스를 어디에 적용해 볼 지 고민해보고 프로젝트를 해봐야겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;강좌를-수강하고-만든-메모-웹-어플리케이션&quot;&gt;강좌를 수강하고 만든 메모 웹 어플리케이션&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;URL : &lt;a href=&quot;https://memowebapp-76a78.firebaseapp.com/&quot;&gt;https://memowebapp-76a78.firebaseapp.com&lt;/a&gt;&lt;/p&gt;
+
 </content>
  </entry>
  
