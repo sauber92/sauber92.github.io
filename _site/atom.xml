@@ -4,13 +4,98 @@
  <title>sauber92's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-02-20T19:15:17+09:00</updated>
+ <updated>2017-02-21T19:38:58+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Junyoung Jung</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>[인프런 강좌] 파이어베이스를 이용한 간단한 웹 어플리케이션 만들기</title>
+   <link href="http://localhost:4000/2017/02/21/firebase-memoapp/"/>
+   <updated>2017-02-21T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2017/02/21/firebase-memoapp</id>
+   <content type="html">&lt;h2 id=&quot;인프런-강좌&quot;&gt;인프런 강좌&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.inflearn.com&quot;&gt;인프런(inflearn)&lt;/a&gt; 사이트는 유/무료 강의를 모아둔 일종의 MOOC 사이트입니다. 저는 벌써 4개의 강좌를 완강하였습니다. 제가 처음 Node.js를 공부해야겠다~ 마음먹었을 당시 이고잉님의 생활코딩 강좌를 이 인프런을 통해 볼 수 있었고 굉장히 만족해하며 이용을 하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;그러던 몇 주 전 &lt;a href=&quot;https://www.facebook.com/inflearn/?fref=ts&quot;&gt;인프런 페이스북 페이지&lt;/a&gt;에 파이어베이스 강좌가 업로드되었다는 소식을 보았고 곧장 수강을 하였지만…오늘에서야 강좌를 듣게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;파이어베이스 강좌의 링크는 &lt;a href=&quot;https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EA%B0%95%EC%A2%8C-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98/&quot;&gt;여기&lt;/a&gt;를 참고해주세요.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;자세한-강좌-소개&quot;&gt;자세한 강좌 소개&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이 강좌는 파이어베이스를 사용하여 간단한 메모 웹 어플리케이션을 만드는 과정을 담고 있습니다. 클라이언트 부분은 강사님이 이미 머테리얼 디자인은 적용시켜서 스켈레톤을 만들어 두셨고, 구글 OAuth 로그인과 데이터베이스의 CRUD만 구현하면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;총 11개의 강의, 1시간 20분의 강의라 부담없이 볼 수 있습니다. 강사님의 코딩흐름을 같이 따라하면서 메모 어플리케이션을 만들기 때문에 끊어서 듣지말고 한번에 듣는 것을 추천합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/review/firebase-0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt; 강의 목차, 한 강의의 길이가 짧아 집중하기 좋다. 그렇다고 내용이 허술하진 않다 &amp;gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;파이어베이스&quot;&gt;파이어베이스&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;저는 이 강좌를 수강하면서 파이어베이스를 처음접한 것은 아닙니다. 예전에 &lt;strong&gt;GDG DevFest Seoul 2016&lt;/strong&gt; 행사에 참석하여 파이어베이스를 이용한 안드로이드 어플리케이션 섹션을 들었는데, 저는 안드로이드 개발을 잘 몰라서 그와 관련된 내용은 블로그 포스팅을 안했었네요.&lt;/p&gt;
+
+&lt;p&gt;(참고 :&lt;a href=&quot;https://sauber92.github.io/2016/11/05/gdg-tensorflow/&quot;&gt;&lt;em&gt;GDG DevFest Seoul 2016 에서 들었던 텐서플로우 포스팅&lt;/em&gt;&lt;/a&gt; )&lt;/p&gt;
+
+&lt;p&gt;그 이후에도 파이어베이스를 이용해보고 싶었지만, 대부분 예시가 안드로이드와 연결된 프로젝트가 많았습니다. 그래서 파이어베이스와 웹을 연결해보고 싶으신 분들은 이 인프런 강좌는 강추합니다!!!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;강좌를-들으면서-파이어베이스를-써보니&quot;&gt;강좌를 들으면서 파이어베이스를 써보니&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;파이어베이스는 쉽고 빠른 개발이 가능하다! 는 말을 자주 접했는데, 실제로 써보니 확실히 느낄 수 있었습니다. 저는 제 개인 프로젝트로 Node.js를 사용한 OAuth Login, MySQL 사용 등을 해보았고 팀프로젝트로 Spring boot를 통해 OAuth와 DB연동 등을 해보았습니다. 근데…파이어베이스를 이용하니 이 모든게 너무 쉽게 구현이 되는게 신기했습니다. 진짜 신세계!!!&lt;/p&gt;
+
+&lt;p&gt;특히 &lt;strong&gt;데이터베이스&lt;/strong&gt; 부분은 환상적인거 같습니다. 요즘 저는 한빛미디어 서평 이벤트&lt;a href=&quot;https://sauber92.github.io/2017/02/08/bookreview/&quot;&gt;(관련 포스팅 바로가기)&lt;/a&gt;를 하면서 데이터베이스에 관심이 깊어졌고 프로젝트를 하면서 SQL의 아름다움과 재미를 느끼고 있는데, 파이어베이스는 그보다 훨씬 쉽게 구현할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/review/firebase-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt; 파이어베이스 콘솔의 Database 부분, 실시간으로 저장된다 &amp;gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;OAuth 인증도 단순히 클릭만 하면 되서 처음엔 이게 제대로 된건가…했을 정도입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/review/firebase-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt; 파이어베이스 콘솔의 Authentication 부분, 솔직히 너무 간단해서 불안하다 &amp;gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;느낀점&quot;&gt;느낀점&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;ICT 분야라는 것이 워낙 광범위하여 평생을 공부하며 살아야하는 것 같습니다. 그런 점에서 인프런과 같은 싸이트는 단비 같은 존재라 생각합니다. 하지만 알아야 할 것은 많다고 모두 어려운 것은 아니라는걸 파이어베이스를 사용하면서 느꼈습니다. 파이어베이스를 어디에 적용해 볼 지 고민해보고 프로젝트를 해봐야겠습니다.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>[경희대 마로] 2016년 학술제 웹페이지</title>
