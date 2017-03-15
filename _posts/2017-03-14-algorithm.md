@@ -14,7 +14,8 @@ n개의 데이터(키 값은 1~1000 사이의 자연수)를 정렬하는 문제
 **개발 환경**  
 
 * PC : MacBook Pro (Retina, 13-inch, Early 2015)  
-* Processor : 2.9 GHz Intel Core i5  
+	* Processor : 2.9 GHz Intel Core i5  
+* Language : C  
 * Editor : Vim 7.4.8056  
 * Compiler : gcc (*Apple LLVM version 8.0.0 (clang-800.0.42.1)*)  
 
@@ -125,7 +126,7 @@ int main() {
 	srand((unsigned)time(NULL));
 	for(i = 0; i < num; i++) {
 		arr[i] = rand() % num + 1;
-		printf("arr]%d] = %d\n", i, arr[i]);
+		printf("arr[%d] = %d\n", i, arr[i]);
 	}
 
 	start = clock();
@@ -154,13 +155,13 @@ int main() {
 ### (2) 특정 n1, n2 (n2 > n1) 에 대해 알고리즘 A, B가 종료될 때까지의 시간을 측정한다.  
 <br/>
 
-* **n1 = 366 일때,**
-	* A (Insertion sort) : 366.000ms  
-	* B (Quick sort) : 91.000ms  
+* **n1 = 32 일때,**
+	* A (Insertion sort) : 5.000ms  
+	* B (Quick sort) : 6.000ms  
 
-* **n2 = 981 일때,**
-	* A (Insertion sort) : 723.000ms  
-	* B (Quick sort) : 176.000ms  
+* **n2 = 512 일때,**
+	* A (Insertion sort) : 269.000ms  
+	* B (Quick sort) : 82.000ms  
 
 ***
 
@@ -169,6 +170,27 @@ int main() {
 <br/>
 
 
-* a = -0.0022  
-* b = 0.4222  
-* c = 
+* a = 0.001  
+* b = 0.124  
+* c = -0.007  
+* d = 0.223  
+
+***
+
+<br/>
+### (4) n = 3,000만 일 때의 A, B의 수행시간을 (3)의 결과를 이용하여 추정한다.  
+
+<br/>
+
+* A (Insertion sort) : $$9.000 * 10^11$$ms = 28.52년  
+* B (Quick sort) : $$511.983 * 10^4$$ms = 1.42시간  
+
+***
+
+<br/>
+### (5) A, B를 컴퓨터로 1분간 수행할 때 해결할 수 있는 문제의 크기 n'를 (3)의 결과를 이용하여 추정한다.  
+
+<br/>
+
+* A (Insertion sort) : 7684.215 -> 7684개  
+* B (Quick sort) : 687586.6783 -> 687586개
