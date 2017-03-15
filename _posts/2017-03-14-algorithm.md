@@ -182,7 +182,7 @@ int main() {
 
 <br/>
 
-* A (Insertion sort) : $$9.000 * 10^11$$ms = 28.52년  
+* A (Insertion sort) : $$9.000 * 10^{11}$$ms = 28.52년  
 * B (Quick sort) : $$511.983 * 10^4$$ms = 1.42시간  
 
 ***
@@ -192,5 +192,5 @@ int main() {
 
 <br/>
 
-* A (Insertion sort) : 7684.215 -> 7684개  
-* B (Quick sort) : 687586.6783 -> 687586개
+* A (Insertion sort) : 7684.215 → 7684개  
+* B (Quick sort) : 687586.6783 → 687586개
