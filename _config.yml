@@ -46,7 +46,7 @@ author:
   name:              'Junyoung Jung'
 
   # This photo will be used in the about section
-  photo:             https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/13237805_968492259936062_3366953170761019237_n.jpg?oh=2ac19ea625d2c85516b989447f3e1af3&oe=58C175E0
+  photo:            /public/img/sauber92.jpg 
 #  photo2x:           @2x.jpeg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)

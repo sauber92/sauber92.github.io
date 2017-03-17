@@ -20,8 +20,8 @@ title: About
 |13.03 ~ 14.12 | 육군 병장 만기 전역 (3군단, 103정보통신단)  
 |15.05 ~ | 경희대학교 [MESL(Mobile & Embedded System Lab)](http://mesl.khu.ac.kr/) 학부연구생  
 |15.09 ~ 16.02 | 경희대학교 전자﹒전파공학과 학술 동아리 마로 회장  
-|16.03 ~ | 경희대학교 전자﹒전파공학과 학술 동아리 학술부장  
-|16.06 ~ | IT 연합동아리 [넥스터즈(NEXTERS)](http://teamnexters.com/) 9기 개발자  
+|16.03 ~ 17.02 | 경희대학교 전자﹒전파공학과 학술 동아리 학술부장  
+|16.06 ~ 17.02 | IT 연합동아리 [넥스터즈(NEXTERS)](http://teamnexters.com/) 9기 개발자  
 
 ***
 
@@ -52,11 +52,14 @@ title: About
 * IoT  
 * Unix/Linux  
 * Embedded system  
-* WEB  
+* Embedded software  
+* Embedded security  
 * Raspberry Pi  
+* WEB  
 * Node.js  
 * React.js  
-* React-native 
+* Angular2.js
+* Amazon Web Service
 
 ***
 
