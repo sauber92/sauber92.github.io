@@ -22,6 +22,7 @@ title: About
 |15.09 ~ 16.02 | 경희대학교 전자﹒전파공학과 학술 동아리 마로 회장  
 |16.03 ~ 17.02 | 경희대학교 전자﹒전파공학과 학술 동아리 학술부장  
 |16.06 ~ 17.02 | IT 연합동아리 [넥스터즈(NEXTERS)](http://teamnexters.com/) 9기 개발자  
+|17.04 ~ | 경희대학교 [전자공학과 홈페이지](http://enr.khu.ac.kr/index.php?hCode=BOARD&bo_idx=1) 기자
 
 ***
 
@@ -41,7 +42,7 @@ title: About
 
 ### 논문  
 
-[IoT 디바이스의 보안 관제 설계를 위한 공개 보안 도구의 유형 및 적용 방안 분석, An Analysis on Types and Application of Public Security Tools for IoT Device Security Control Design](/public/paper.pdf)  
+[IoT 디바이스의 보안 관제 설계를 위한 공개 보안 도구의 유형 및 적용 방안 분석, An Analysis on Types and Application of Public Security Tools for IoT Device Security Control Design](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07018046)  
 2016년 한국컴퓨터종합학술대회 논문집  
 
 <br/>
@@ -62,7 +63,6 @@ title: About
 * Raspberry Pi  
 * WEB  
 * Node.js  
-* React.js  
 * Angular2.js
 * Amazon Web Service
 
