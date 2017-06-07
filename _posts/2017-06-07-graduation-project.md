@@ -142,7 +142,7 @@ Arduino Uno 보드와 4채널 릴레이 2개, 전자석 8개를 사용하여 구
 
 <br/>
 
-* * 전체 프로젝트 소개 유투브 영상(업로드 17년 6월 1일)  
+* 전체 프로젝트 소개 유투브 영상(업로드 17년 6월 1일)  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZEWkTbEnWDc?ecver=1" frameborder="0" allowfullscreen></iframe>  
 
 <br/>
