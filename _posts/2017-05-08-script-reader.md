@@ -32,7 +32,7 @@ description: >
 
 <br/>
 
-![](public/img/project/scriptreader-1.png)  
+![](/public/img/project/scriptreader-1.png)  
 *< 이 부분의 음성은 TTS 서비스, 영상은 포토샵과 iMovie를 사용하여 만들었습니다 >*  
 
 <br/>
