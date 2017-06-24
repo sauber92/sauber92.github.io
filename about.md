@@ -39,16 +39,23 @@ title: About
 |          | 프로젝트 : [inSpot](/2016/09/04/inspot/) [(PPT)](http://www.slideshare.net/JunyoungJung8/2016-kglobal-inspot) [(동영상)](https://youtu.be/j9xFvVKSiaI)|
 
 ***
-
+<br/>
 ### 논문  
+<br/>
 
+**1.**  
 [IoT 디바이스의 보안 관제 설계를 위한 공개 보안 도구의 유형 및 적용 방안 분석, An Analysis on Types and Application of Public Security Tools for IoT Device Security Control Design](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07018046)  
 2016년 한국컴퓨터종합학술대회 논문집  
 
-<br/>
-
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/uKbZMs5h26qd7v" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/kcc-poster" title="[KCC poster]정준영" target="_blank">[KCC poster]정준영</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
 
+<br/>  
+
+**2.**  
+[IoT 디바이스 보안 플랫폼 기반의 보안 관제 시스템의 설계 및 구현, Design and Implementation of Security Control Center based on IoT Device Security Platform](../../Junyoung-paper-2017.pdf)  
+2017년 한국컴퓨터종합학술대회 논문집  
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/B85HxM3bbB1nbo" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/kcc-poster-77221797" title="[Kcc poster] 정준영" target="_blank">[Kcc poster] 정준영</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
 
 ***
 

@@ -21,13 +21,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{% if page.tag %}{{ site.data.tags[page.tag].name }}{% else %}{{ page.title }}{% endif %} &middot; {{ site.title }}{% endif %}</title>
+  <title>{{ site.title }}</title>
   {% if page.description %}
   {% capture desc %}{{ page.description }}{:.message}{% endcapture %}
   <meta name="description" content="{{ desc | markdownify | strip_html | truncatewords: 50 }}">
   {% else %}{% if page.excerpt %}
   <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 50 }}">
   {% endif %}{% endif %}
+
+  <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!--[if gt IE 8]><!---->
   <style>
@@ -89,7 +91,7 @@
   <!--[if lt IE 9]>
   <script src="https://unpkg.com/html5shiv/dist/html5shiv.min.js"></script>
   <![endif]-->
-  
+
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
