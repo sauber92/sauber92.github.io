@@ -8,10 +8,8 @@ layout: default
   {% include about.html author=site.author %}
 {% endif %}
 
-{% include related.html post=page %}
+{% if site.comments.test %}
 
-{% if site.disqus %}
-{# {% include comments.html post=page %}#}
 <!-- 라이브리 시티 설치 코드 -->
 <div id="lv-container" data-id="city" data-uid="MTAyMC8yOTIwMC81NzY3">
 	<script type="text/javascript">

@@ -41,12 +41,17 @@ font:                '"Nanum Gothic"'
 #font_accent:         '"Roboto Slab", "PT Serif", Georgia, serif'
 #load_google_fonts:   'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
 
+# comments
+comments:
+  test:
+    hi
+
 # About yourself
 author:
   name:              'Junyoung Jung'
 
   # This photo will be used in the about section
-  photo:            /public/img/sauber92.jpg 
+  photo:            /public/img/sauber92.jpg
 #  photo2x:           @2x.jpeg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -97,7 +102,7 @@ author:
 google_analytics_id: 'UA-88344613-1'
 
 # Setting a disqus subdomain will enable the comment section
- #disqus:            
+ #disqus:
 
 kramdown:
   math_engine:       mathjax
