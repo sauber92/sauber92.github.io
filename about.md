@@ -36,7 +36,11 @@ title: About
 | 16.07.31 | 대학생 연합 해커톤 UNITHON 3RD, 한국과학창의재단 특별상 |
 |          | 프로젝트 : [Mingginyu(밍기뉴)](/2016/08/06/unithon-mingginyu/) [(PPT)](http://www.slideshare.net/JunyoungJung8/unithon-3rd-mingginyuppt) [(동영상)](https://youtu.be/RAKVhlfUBJU)|
 | 16.08.21 | 2016 K-Global 스마트 디바이스톤 우수상, 사단법인 쓰리디프린팅연구조합 |
-|          | 프로젝트 : [inSpot](/2016/09/04/inspot/) [(PPT)](http://www.slideshare.net/JunyoungJung8/2016-kglobal-inspot) [(동영상)](https://youtu.be/j9xFvVKSiaI)|
+|          | 프로젝트 : [inSpot](/2016/09/04/inspot/) [(PPT)](http://www.slideshare.net/JunyoungJung8/2016-kglobal-inspot) [(동영상)](https://youtu.be/j9xFvVKSiaI)|  
+| 17.07.10 | 2017 한국컴퓨터종합학술대회 학부생 논문경진대회 우수상, 한국정보과학회장 |  
+|          | 논문 : [IoT 디바이스 보안 플랫폼 기반의 보안 관제 시스템의 설계 및 구현](../../Junyoung-paper-2017.pdf) |
+| 17.07.30 | 대학생 연합 해커톤 UNITHON 5TH, Amazon Web Service 특별상 |  
+|          | 프로젝트 : [KOK]() [(PPT)](https://www.slideshare.net/JunyoungJung8/unithon-5th-kok) [(동영상)](https://youtu.be/80MWKoK_LUw?list=PLTj4ip-QW96vjFo_UbMcP9qv7Ne7OVDKL)
 
 ***
 <br/>
@@ -70,11 +74,11 @@ title: About
 * Raspberry Pi  
 * WEB  
 * Node.js  
-* Angular2.js
+* Vue.js  
 * Amazon Web Service
 
 ***
 
 ### 기술스택  
 
-<a frameborder="0" data-theme="dark" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/de8bb25a479628eed30d3d630dfa68"></a>    <script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
+<a frameborder="0" data-theme="dark" data-stack-embed="true" data-layers="1,2,3,4" href="https://embed.stackshare.io/stacks/embed/de8bb25a479628eed30d3d630dfa68"/></a><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>

@@ -7,7 +7,7 @@ description: >
 ---
 
 ### 왜 예정에 없던 자료를 만들게 되었나?  
-
+<br/>
 우아주 소모임은 매달 한번의 만남을 원칙으로 하고 있습니다. 그러나 모임의 만남 수가 빈번하지 않다보니, 평소엔 카톡방에서 대화도 없고 스터디를 위한 모임이라는 느낌이 들지 않았습니다.  
 
 그래서 생각한 일이 매일 '자신이 한 일'과 '하고 싶은 일', 그리고 '서로 공유하고 싶은 일'에 대해 대화를 나눠보도록 하였고, 모임의 주최자인 저는 매일매일 질문을 하고 질문에 대한 피드백을 하고 있습니다.  
@@ -19,13 +19,16 @@ description: >
 
 미흡하지만 열심히 알아보고 공부한 내용을 피피티로 만들어 공유하겠습니다. 잘못된 부분이 있다면 좋은 가르침을 부탁드립니다.  
 
+***
+
 ### 피피티 자료  
 
-<br/>
 <div>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/qcuvlx3wyb1Fku" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/etc-78265029" title="[우아주, Etc] 정준영 - 페이시스템" target="_blank">[우아주, Etc] 정준영 - 페이시스템</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
 </div>
 
-### 우아주에 대해 알고 싶으시면?  
+***
 
+### 우아주에 대해 알고 싶으시면?  
+<br/>
 [지난 포스팅](https://sauber92.github.io/2017/07/17/wooajoo/)을 참고해주세요~!!

@@ -14,7 +14,7 @@ url:                 https://sauber92.github.io
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl:
+baseurl:             
 
 title:               sauber92's Blog
 

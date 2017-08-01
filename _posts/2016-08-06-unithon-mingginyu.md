@@ -3,7 +3,7 @@ layout: post
 title: '[대학생 연합 해커톤 UNITHON 3RD] Mingginyu(밍기뉴)'
 tags: [Project]
 description: >
-  이 프로젝트는 2017년 7월 30일부터 31일까지 진행된 해커톤, UNITHON에 참가하여 완성한 프로젝트입니다.
+  이 프로젝트는 2016년 7월 30일부터 31일까지 진행된 해커톤, UNITHON에 참가하여 완성한 프로젝트입니다.
 ---
 
 [Github Repository](https://github.com/Nexters/mingginyu)  
