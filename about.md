@@ -22,7 +22,9 @@ title: About
 |15.09 ~ 16.02 | 경희대학교 전자﹒전파공학과 학술 동아리 마로 회장  
 |16.03 ~ 17.02 | 경희대학교 전자﹒전파공학과 학술 동아리 학술부장  
 |16.06 ~ 17.02 | IT 연합동아리 [넥스터즈(NEXTERS)](http://teamnexters.com/) 9기 개발자  
-|17.04 ~ | 경희대학교 [전자공학과 홈페이지](http://enr.khu.ac.kr/index.php?hCode=BOARD&bo_idx=1) 기자
+|17.03 ~ | 경희대학교 컴퓨터공학과 서울어코드 특기장학생
+|17.04 ~ | 경희대학교 [전자공학과 홈페이지](http://enr.khu.ac.kr/index.php?hCode=BOARD&bo_idx=1) 기자  
+|17.07   | [시큐리티플랫폼](https://www.kr.securityplatform.co.kr/) 인턴
 
 ***
 
@@ -40,7 +42,7 @@ title: About
 | 17.07.10 | 2017 한국컴퓨터종합학술대회 학부생 논문경진대회 우수상, 한국정보과학회장 |  
 |          | 논문 : [IoT 디바이스 보안 플랫폼 기반의 보안 관제 시스템의 설계 및 구현](../../Junyoung-paper-2017.pdf) |
 | 17.07.30 | 대학생 연합 해커톤 UNITHON 5TH, Amazon Web Service 특별상 |  
-|          | 프로젝트 : [KOK]() [(PPT)](https://www.slideshare.net/JunyoungJung8/unithon-5th-kok) [(동영상)](https://youtu.be/80MWKoK_LUw?list=PLTj4ip-QW96vjFo_UbMcP9qv7Ne7OVDKL)
+|          | 프로젝트 : [KOK](https://sauber92.github.io/2017/08/01/unithon7team/) [(PPT)](https://www.slideshare.net/JunyoungJung8/unithon-5th-kok) [(동영상)](https://youtu.be/80MWKoK_LUw?list=PLTj4ip-QW96vjFo_UbMcP9qv7Ne7OVDKL)
 
 ***
 <br/>
