@@ -138,12 +138,12 @@ Arduino Uno 보드와 4채널 릴레이 2개, 전자석 8개를 사용하여 구
 ## 동영상  
 
 * Typing Assitant 유투브 영상(업로드 17년 4월 20일)  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p1Mg6t1OUfo?ecver=1" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/p1Mg6t1OUfo?ecver=1" frameborder="0" allowfullscreen></iframe>  
 
 <br/>
 
 * 전체 프로젝트 소개 유투브 영상(업로드 17년 6월 1일)  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZEWkTbEnWDc?ecver=1" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZEWkTbEnWDc?ecver=1" frameborder="0" allowfullscreen></iframe>  
 
 <br/>
 
@@ -153,13 +153,13 @@ Arduino Uno 보드와 4채널 릴레이 2개, 전자석 8개를 사용하여 구
 
 ### 종합설계 최종 발표자료 (17.06.01)  
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/6GcJ2HCHBN6JN5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/graduation-project-76655191" title="[Graduation Project] 전자석을 이용한 타자 연습기" target="_blank">[Graduation Project] 전자석을 이용한 타자 연습기</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/6GcJ2HCHBN6JN5" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/graduation-project-76655191" title="[Graduation Project] 전자석을 이용한 타자 연습기" target="_blank">[Graduation Project] 전자석을 이용한 타자 연습기</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
 
 <br/>
 
 ### 창의적종합설계경진대회 발표자료 (17.07.04)  
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/fRsLyrmoZn0PQP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/team608-77488804" title="[team608] 전자석을 이용한 타자연습기" target="_blank">[team608] 전자석을 이용한 타자연습기</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/fRsLyrmoZn0PQP" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/team608-77488804" title="[team608] 전자석을 이용한 타자연습기" target="_blank">[team608] 전자석을 이용한 타자연습기</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
 
 <br/>
 

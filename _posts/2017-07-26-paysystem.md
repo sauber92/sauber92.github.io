@@ -24,7 +24,7 @@ description: >
 ### 피피티 자료  
 
 <div>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/qcuvlx3wyb1Fku" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/etc-78265029" title="[우아주, Etc] 정준영 - 페이시스템" target="_blank">[우아주, Etc] 정준영 - 페이시스템</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/qcuvlx3wyb1Fku" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/etc-78265029" title="[우아주, Etc] 정준영 - 페이시스템" target="_blank">[우아주, Etc] 정준영 - 페이시스템</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
 </div>
 
 ***

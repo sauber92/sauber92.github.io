@@ -10,11 +10,11 @@ description: >
 
 ***
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/LzOtRphboungv" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/unithon-3rd-mingginyu" title="[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_서비스 소개서" target="_blank">[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_서비스 소개서</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/LzOtRphboungv" width="100%" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/unithon-3rd-mingginyu" title="[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_서비스 소개서" target="_blank">[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_서비스 소개서</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
 
 ***
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/lAH7ULRKC4AoWS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/unithon-3rd-mingginyuppt" title="[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_ppt" target="_blank">[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_ppt</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/lAH7ULRKC4AoWS" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/unithon-3rd-mingginyuppt" title="[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_ppt" target="_blank">[대학생 연합 해커톤 UNITHON 3RD] Mingginyu_ppt</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
 
 ***
 
