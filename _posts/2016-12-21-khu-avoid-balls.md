@@ -43,7 +43,9 @@ Atmega128에 UART1에 해당하는 PD2(RXD1), PD3(TXD1) 포트에 HC-06 Bluetoot
 
 ## 2. 실행결과 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-eO0VZtBdYg" frameborder="0" allowfullscreen></iframe>
+<div>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/-eO0VZtBdYg" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ***
 

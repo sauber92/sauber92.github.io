@@ -48,7 +48,9 @@ Client에 전원이 인가되면 “Hello USP”라는 문구를 LCD Module에 �
 
 ## 2. 실행결과 
 
+<div>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/IBv3-7qRPxQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ***
 
