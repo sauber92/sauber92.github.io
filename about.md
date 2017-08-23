@@ -24,7 +24,7 @@ title: About
 |16.06 ~ 17.02 | IT 연합동아리 [넥스터즈(NEXTERS)](http://teamnexters.com/) 9기 개발자  
 |17.03 ~ | 경희대학교 컴퓨터공학과 서울어코드 특기장학생
 |17.04 ~ | 경희대학교 [전자공학과 홈페이지](http://enr.khu.ac.kr/index.php?hCode=BOARD&bo_idx=1) 기자  
-|17.07   | [시큐리티플랫폼](https://www.kr.securityplatform.co.kr/) 인턴
+|17.07   | [시큐리티플랫폼](https://www.kr.securityplatform.co.kr/) 인턴 [파견 보고서 보러가기](https://github.com/sauber92/sauber92.github.io/blob/master/public/intern.pdf)
 
 ***
 
