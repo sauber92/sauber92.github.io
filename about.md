@@ -15,11 +15,11 @@ title: About
 |--------|---------------|
 | 11.02   | 진성고등학교 졸업  
 |12.03 ~ 현재 | 경희대학교 전자공학과, 컴퓨터공학과 다전공
-|12.03 ~ 현재 | 경희대학교 전자﹒전파공학과 학술 동아리 마로  
+|12.03 ~ 현재 | 경희대학교 전자공학과 학술 동아리 마로  
 |13.03 ~ 14.12 | 육군 병장 만기 전역 (3군단, 103정보통신단)  
 |15.05 ~ 현재 | 경희대학교 [MESL(Mobile & Embedded System Lab)](http://mesl.khu.ac.kr/) 학부연구생  
-|15.09 ~ 16.02 | 경희대학교 전자﹒전파공학과 학술 동아리 마로 회장  
-|16.03 ~ 17.02 | 경희대학교 전자﹒전파공학과 학술 동아리 학술부장  
+|15.09 ~ 16.02 | 경희대학교 전자공학과 학술 동아리 마로 회장  
+|16.03 ~ 17.02 | 경희대학교 전자공학과 학술 동아리 학술부장  
 |16.06 ~ 17.02 | IT 연합동아리 [넥스터즈(NEXTERS)](http://teamnexters.com/) 9기 개발자  
 |17.03 ~ 현재 | 경희대학교 컴퓨터공학과 서울어코드 특기장학생
 |17.04 ~ 현재 | 경희대학교 [전자공학과 홈페이지](http://enr.khu.ac.kr/index.php?hCode=BOARD&bo_idx=1) 기자  
@@ -41,7 +41,11 @@ title: About
 | 17.07.10 | 2017 한국컴퓨터종합학술대회 학부생 논문경진대회 우수상, 한국정보과학회장 |  
 |          | 논문 : [IoT 디바이스 보안 플랫폼 기반의 보안 관제 시스템의 설계 및 구현](../../Junyoung-paper-2017.pdf) |
 | 17.07.30 | 대학생 연합 해커톤 UNITHON 5TH, Amazon Web Service 특별상 |  
-|          | 프로젝트 : [KOK](https://sauber92.github.io/2017/08/01/unithon7team/) [(PPT)](https://www.slideshare.net/JunyoungJung8/unithon-5th-kok) [(동영상)](https://youtu.be/80MWKoK_LUw?list=PLTj4ip-QW96vjFo_UbMcP9qv7Ne7OVDKL)
+|          | 프로젝트 : [KOK](https://sauber92.github.io/2017/08/01/unithon7team/) [(PPT)](https://www.slideshare.net/JunyoungJung8/unithon-5th-kok) [(동영상)](https://youtu.be/80MWKoK_LUw?list=PLTj4ip-QW96vjFo_UbMcP9qv7Ne7OVDKL)|
+| 17.09.14 | 2017 학생 포트폴리오 교내 경진대회 금상, 경희대학교총장 |  
+|          | [포트폴리오(ver.2012~2017) 보러가기](https://www.slideshare.net/secret/3KQJBUxLI2uVpG) |
+| 17.09.14 | 2017 창의적 종합설계 교내 경진대회 장려상, 경희대학교총장 |  
+|          | 프로젝트 : [전자석을 이용한 타자연습기](https://sauber92.github.io/2017/06/07/graduation-project/) [(PPT)](https://www.slideshare.net/JunyoungJung8/team608-77488804) [(동영상)](https://youtu.be/ZEWkTbEnWDc)
 
 ***
 <br/>
@@ -82,4 +86,4 @@ title: About
 
 ### 기술스택  
 
-<a frameborder="0" data-theme="dark" data-stack-embed="true" data-layers="1,2,3,4" href="https://embed.stackshare.io/stacks/embed/de8bb25a479628eed30d3d630dfa68"/></a><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
+<a frameborder="0" data-theme="dark" data-stack-embed="true" data-layers="1,2,3,4" href="https://embed.stackshare.io/stacks/embed/de8bb25a479628eed30d3d630dfa68"/><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
