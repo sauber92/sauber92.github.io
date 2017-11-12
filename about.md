@@ -46,6 +46,9 @@ title: About
 |          | [포트폴리오(ver.2012~2017) 보러가기](https://www.slideshare.net/secret/3KQJBUxLI2uVpG) |
 | 17.09.14 | 2017 창의적 종합설계 교내 경진대회 장려상, 경희대학교총장 |  
 |          | 프로젝트 : [전자석을 이용한 타자연습기](https://sauber92.github.io/2017/06/07/graduation-project/) [(PPT)](https://www.slideshare.net/JunyoungJung8/team608-77488804) [(동영상)](https://youtu.be/ZEWkTbEnWDc)
+| 17.09.28 | 2017 학생 포트폴리오 거점 경진대회 은상, 성균관대학교 공학교육거점센터장 |  
+|          | [포트폴리오(ver.2012~2017) 보러가기](https://www.slideshare.net/secret/3KQJBUxLI2uVpG) |
+
 
 ***
 <br/>
