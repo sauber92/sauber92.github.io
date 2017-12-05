@@ -169,6 +169,12 @@ Arduino Uno 보드와 4채널 릴레이 2개, 전자석 8개를 사용하여 구
 
 <br/>
 
+### 실전문제연구단 판넬자료 (17.12.01)  
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/vzSzmL4Be2S8Zf" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/ss-83381714" title="전기적 힘을 사용한 햅틱 기술의 교육 효과 증명: 전자석을 이용한 타자 연습기" target="_blank">전기적 힘을 사용한 햅틱 기술의 교육 효과 증명: 전자석을 이용한 타자 연습기</a> </strong> from <strong><a href="https://www.slideshare.net/JunyoungJung8" target="_blank">Junyoung Jung</a></strong> </div>
+
+<br/>
+
 ***
 
 ## 프로젝트 관리  
@@ -222,4 +228,20 @@ Arduino Uno 보드와 4채널 릴레이 2개, 전자석 8개를 사용하여 구
 
 Keyboard Panel과 FingerTip의 개발에서는 주로 팀원들에게 조원을 주는 역할을 하였습니다. 가장 기억에 남는 것은, 전송받은 문자를 판단하는 과정에서 **'바이너리 서치'**를 사용하도록 조언한 것입니다. KP의 경우 시리얼 통신을 통해 전송받은 문자가 26개의 알파벳 중 어느 것인지 찾고 해당 전자석을 활성화 시켜줘야 합니다. 이때 if-else문 26개를 통해 탐색하는 코드를 바이너리 서치로 수정하였습니다.  
 
-종합설계에서는 우수팀으로 선정되었고 그 결과 실전문제연구단 과제로도 선정되어 학교의 지원도 받을 수 있었습니다. 앞으로 더 발전되도록 보완하겠습니다.
+종합설계에서는 우수팀으로 선정되었고 그 결과 실전문제연구단 과제로도 선정되어 학교의 지원도 받을 수 있었습니다. 앞으로 더 발전되도록 보완하겠습니다.  
+
+### (17년 12월 1일 느낀점)  
+
+본 프로젝트를 통해 실전문제연구단 과제를 진행 중에 있습니다. [(실전문제연구단이란?)](http://enr.khu.ac.kr/index.php?hCode=BOARD&page=view&idx=802&bo_idx=1&hCode=BOARD&bo_idx=1&sfl=&stx=)  
+
+오늘은 경희대 실전문제연구단 23개 팀의 성과발표회가 있었으며, 최우수 2개팀을 선정하여 경희대학교의 대표를 선정하였습니다.  
+
+![](/public/img/project/gp-2.jpeg)  
+*< 경희대 실전문제연구단 성과발표회 >*  
+
+이번 성과발표회에서 선정된 학교 대표는 내년 1월에 있을 X-Corps Festival에 전시 발표를 해야 합니다. 솔직히 최우수 팀으로 선정될 자신이 없었는데...
+
+![](/public/img/project/gp-1.jpeg)
+*< 최우수 팀이 되어 버렸다 >*  
+
+최우수 팀으로 선정되었습니다. 남은 기간동안 연구단 과제를 잘 끝내도록 하겠습니다.  
