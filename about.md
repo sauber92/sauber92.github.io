@@ -15,7 +15,7 @@ title: About
 **﹒학력 및 교내 활동**  
 
 |--------|---------------|  
-| (현) 경희대학교 대학원 컴퓨터공학과 석사과정 | 18.02 ~ |  
+| (현) 경희대학교 대학원 컴퓨터공학과 석사과정 | 18.03 ~ |  
 | 경희대학교 전자공학과, 컴퓨터공학과 다전공 졸업 | 12.03 ~ 18.02 |  
 | 경희대학교 [MESL(Mobile & Embedded System Lab)](http://mesl.khu.ac.kr/) 학부연구생 | 15.05 ~ 18.02 |  
 | 경희대학교 컴퓨터공학과 서울어코드 특기장학생 | 17.03 ~ 18.02 |  
@@ -37,7 +37,9 @@ title: About
 
 |----------|--------------|
 | 17.12.07 | 2017년도 전자정보대학 SW FESTIVAL 최우수상, 경희대학교 전자정보대학 |  
-|          | 프로젝트 : [SCC](https://sauber92.github.io/2017/12/28/scc/) [(PPT)](https://www.slideshare.net/JunyoungJung8/scc-security-control-center) [(동영상)](https://www.youtube.com/watch?v=i4zGi6ksuR4&list=PLTj4ip-QW96t1ieBhfBDOQUF5N73PTrt2&index=2) |
+|          | 프로젝트 : [SCC](https://sauber92.github.io/2017/12/28/scc/) [(PPT)](https://www.slideshare.net/JunyoungJung8/scc-security-control-center) [(동영상)](https://www.youtube.com/watch?v=i4zGi6ksuR4&list=PLTj4ip-QW96t1ieBhfBDOQUF5N73PTrt2&index=2) |  
+| 17.12.01 | 2017 실전문제 연구과제 최우수상, 경희대학교 실전문제연구단장 |  
+|          | 프로젝트 : [전자석을 이용한 타자연습기](https://sauber92.github.io/2017/06/07/graduation-project/) [(PPT)](https://www.slideshare.net/JunyoungJung8/team608-77488804) [(동영상)](https://youtu.be/ZEWkTbEnWDc)
 | 17.11.24 | 2018 평창 동계올림픽 기념 SW 공모전 은상, 소프트웨어중심대학협의회 회장장 |  
 |          | 프로젝트 : [Nolza](https://sauber92.github.io/2017/12/27/nolza/) [(PPT)](https://www.slideshare.net/JunyoungJung8/2018-sw-nolza-activity-curation-service) [(동영상-1)](https://www.youtube.com/watch?v=bOjz14wolck&list=PLTj4ip-QW96vjFo_UbMcP9qv7Ne7OVDKL&index=2) [(동영상-2)](https://www.youtube.com/watch?v=yH_-CQ9dutc&index=1&list=PLTj4ip-QW96vjFo_UbMcP9qv7Ne7OVDKL) |
 | 17.09.28 | 2017 학생 포트폴리오 거점 경진대회 은상, 성균관대학교 공학교육거점센터장 |  
@@ -80,7 +82,7 @@ title: About
 <br/>  
 
 **3.**  
-[전기적 힘을 사용한 햅틱 기술의 교육 효과 증명: 전자석을 이용한 타자 연습기, Demonstration of Educational effect of Haptic Technology using Electric Force: Electromagnet Typing Exerciser]()  
+[전기적 힘을 사용한 햅틱 기술의 교육 효과 증명: 전자석을 이용한 타자 연습기, Demonstration of Educational effect of Haptic Technology using Electric Force: Electromagnet Typing Exerciser](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07322818?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20)  
 2017년 한국소프트웨어종합학술대회 논문집  
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/fRsLyrmoZn0PQP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/team608-77488804" title="[team608] 전자석을 이용한 타자연습기" target="_blank">전자석을 이용한 타자연습기</a> </strong> from <strong><a href="//www.slideshare.net/JunyoungJung8" target="_blank">Junyoung Jung</a></strong> </div>
