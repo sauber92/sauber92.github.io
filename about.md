@@ -37,7 +37,7 @@ title: About
 
 |----------|--------------|
 | 17.12.07 | 2017년도 전자정보대학 SW FESTIVAL 최우수상, 경희대학교 전자정보대학 |  
-|          | 프로젝트 : [SCC](https://sauber92.github.io/2017/12/28/scc/) [(PPT)](https://www.slideshare.net/JunyoungJung8/scc-security-control-center) [(동영상)](https://www.youtube.com/watch?v=i4zGi6ksuR4&list=PLTj4ip-QW96t1ieBhfBDOQUF5N73PTrt2&index=2) |  
+|          | 프로젝트 : [SCC](https://sauber92.github.io/2017/12/28/scc/) [(PPT)](https://www.slideshare.net/JunyoungJung8/scc-security-control-center) [(동영상)](https://youtu.be/iFZc9yiRdec) |  
 | 17.12.01 | 2017 실전문제 연구과제 최우수상, 경희대학교 실전문제연구단장 |  
 |          | 프로젝트 : [전자석을 이용한 타자연습기](https://sauber92.github.io/2017/06/07/graduation-project/) [(PPT)](https://www.slideshare.net/JunyoungJung8/team608-77488804) [(동영상)](https://youtu.be/ZEWkTbEnWDc)
 | 17.11.24 | 2018 평창 동계올림픽 기념 SW 공모전 은상, 소프트웨어중심대학협의회 회장장 |  
@@ -77,7 +77,7 @@ title: About
 [IoT 디바이스 보안 플랫폼 기반의 보안 관제 시스템의 설계 및 구현, Design and Implementation of Security Control Center based on IoT Device Security Platform](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207806?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20)  
 2017년 한국컴퓨터종합학술대회 논문집  
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/B85HxM3bbB1nbo" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/kcc-poster-77221797" title="[Kcc poster] 정준영" target="_blank">[Kcc poster] 정준영</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/B85HxM3bbB1nbo" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/kcc-poster-77221797" title="[Kcc poster] 정준영" target="_blank">[KCC poster] 정준영</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
 
 <br/>  
 
@@ -86,6 +86,15 @@ title: About
 2017년 한국소프트웨어종합학술대회 논문집  
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/fRsLyrmoZn0PQP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/team608-77488804" title="[team608] 전자석을 이용한 타자연습기" target="_blank">전자석을 이용한 타자연습기</a> </strong> from <strong><a href="//www.slideshare.net/JunyoungJung8" target="_blank">Junyoung Jung</a></strong> </div>
+
+<br/>
+
+**4.**
+[통합 보안 SoC 기반의 IoT 디바이스 보안 플랫폼 설계](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07503269?TotalCount=1&Seq=1&q=%5B%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%C2%A7coldb%C2%A72%C2%A751%C2%A73%5D&searchWord=%EC%A0%84%EC%B2%B4%3D%5E%24%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%5E*&Multimedia=0&isIdentifyAuthor=0&Collection=0&SearchAll=%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84&isFullText=0&specificParam=0&SearchMethod=0&Sort=1&SortType=desc&Page=1&PageSize=20)  
+20178년 한국컴퓨터종합학술대회 논문집   
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/rTsCSKtACJwhC4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/kcc-oral" title="[KCC oral] 정준영" target="_blank">[KCC oral] 정준영</a> </strong> from <strong><a href="https://www.slideshare.net/JunyoungJung8" target="_blank">Junyoung Jung</a></strong> </div>
+
 
 ***
 
