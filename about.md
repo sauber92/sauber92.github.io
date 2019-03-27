@@ -65,7 +65,28 @@ title: About
 ***
 ## 논문  
 <br/>
-**1.**  
+[통합 보안 SoC 기반의 IoT 디바이스 보안 플랫폼 설계, Design of a IoT Device Security Platform based on Integrated Security SoC](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07503269?TotalCount=1&Seq=1&q=%5B%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%C2%A7coldb%C2%A72%C2%A751%C2%A73%5D&searchWord=%EC%A0%84%EC%B2%B4%3D%5E%24%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%5E*&Multimedia=0&isIdentifyAuthor=0&Collection=0&SearchAll=%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84&isFullText=0&specificParam=0&SearchMethod=0&Sort=1&SortType=desc&Page=1&PageSize=20)  
+2018년 한국컴퓨터종합학술대회 논문집   
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/rTsCSKtACJwhC4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/kcc-oral" title="[KCC oral] 정준영" target="_blank">[KCC oral] 정준영</a> </strong> from <strong><a href="https://www.slideshare.net/JunyoungJung8" target="_blank">Junyoung Jung</a></strong> </div>
+
+<br/>
+
+[전기적 힘을 사용한 햅틱 기술의 교육 효과 증명: 전자석을 이용한 타자 연습기, Demonstration of Educational effect of Haptic Technology using Electric Force: Electromagnet Typing Exerciser](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07322818?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20)  
+2017년 한국소프트웨어종합학술대회 논문집  
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/fRsLyrmoZn0PQP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/team608-77488804" title="[team608] 전자석을 이용한 타자연습기" target="_blank">전자석을 이용한 타자연습기</a> </strong> from <strong><a href="//www.slideshare.net/JunyoungJung8" target="_blank">Junyoung Jung</a></strong> </div>
+
+
+<br/>
+
+[IoT 디바이스 보안 플랫폼 기반의 보안 관제 시스템의 설계 및 구현, Design and Implementation of Security Control Center based on IoT Device Security Platform](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207806?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20)  
+2017년 한국컴퓨터종합학술대회 논문집  
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/B85HxM3bbB1nbo" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/kcc-poster-77221797" title="[Kcc poster] 정준영" target="_blank">[KCC poster] 정준영</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
+
+<br/>
+
 [IoT 디바이스의 보안 관제 설계를 위한 공개 보안 도구의 유형 및 적용 방안 분석, An Analysis on Types and Application of Public Security Tools for IoT Device Security Control Design](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07018046)  
 2016년 한국컴퓨터종합학술대회 논문집  
 
@@ -73,44 +94,16 @@ title: About
 
 <br/>  
 
-**2.**  
-[IoT 디바이스 보안 플랫폼 기반의 보안 관제 시스템의 설계 및 구현, Design and Implementation of Security Control Center based on IoT Device Security Platform](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207806?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20)  
-2017년 한국컴퓨터종합학술대회 논문집  
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/B85HxM3bbB1nbo" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/kcc-poster-77221797" title="[Kcc poster] 정준영" target="_blank">[KCC poster] 정준영</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/JunyoungJung8">Junyoung Jung</a></strong> </div>
-
-<br/>  
-
-**3.**  
-[전기적 힘을 사용한 햅틱 기술의 교육 효과 증명: 전자석을 이용한 타자 연습기, Demonstration of Educational effect of Haptic Technology using Electric Force: Electromagnet Typing Exerciser](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07322818?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20)  
-2017년 한국소프트웨어종합학술대회 논문집  
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/fRsLyrmoZn0PQP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/team608-77488804" title="[team608] 전자석을 이용한 타자연습기" target="_blank">전자석을 이용한 타자연습기</a> </strong> from <strong><a href="//www.slideshare.net/JunyoungJung8" target="_blank">Junyoung Jung</a></strong> </div>
-
-<br/>
-
-**4.**
-[통합 보안 SoC 기반의 IoT 디바이스 보안 플랫폼 설계, Design of a IoT Device Security Platform based on Integrated Security SoC](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07503269?TotalCount=1&Seq=1&q=%5B%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%C2%A7coldb%C2%A72%C2%A751%C2%A73%5D&searchWord=%EC%A0%84%EC%B2%B4%3D%5E%24%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%5E*&Multimedia=0&isIdentifyAuthor=0&Collection=0&SearchAll=%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84&isFullText=0&specificParam=0&SearchMethod=0&Sort=1&SortType=desc&Page=1&PageSize=20)  
-20178년 한국컴퓨터종합학술대회 논문집   
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/rTsCSKtACJwhC4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JunyoungJung8/kcc-oral" title="[KCC oral] 정준영" target="_blank">[KCC oral] 정준영</a> </strong> from <strong><a href="https://www.slideshare.net/JunyoungJung8" target="_blank">Junyoung Jung</a></strong> </div>
-
-
 ***
 
 ## 관심분야  
 
-* ICT  
 * IoT  
 * Unix/Linux  
 * Embedded system  
-* Embedded software  
 * Embedded security  
-* Raspberry Pi  
+* System security  
 * WEB  
-* Node.js  
-* Vue.js  
-* Amazon Web Service
 
 ***
 
