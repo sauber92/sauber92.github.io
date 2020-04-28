@@ -20,7 +20,7 @@ title:               sauber92's Blog
 
 # Pagination
 paginate:            1
-paginate_path:       '/about'
+paginate_path:       '/page-:num/'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
