@@ -12,7 +12,7 @@ title: About
 <br/>
 ## 경력  
 
-**.주요 경력**   
+**ㆍ 주요 경력**   
 
 |--------|---------------|  
 | (현) 현대오트론 전자플랫폼팀 연구원 | 19.12 ~ |  
@@ -21,7 +21,7 @@ title: About
 | 경희대학교 [MESL(Mobile & Embedded System Lab)](http://mesl.khu.ac.kr/) 학부연구생 | 15.05 ~ 18.02 |  
 | 진성고등학교 14기 졸업 | 09.03 ~ 11.02 |
 
-**.그 외**  
+**ㆍ 그 외**  
 
 |--------|---------------|
 | 경희대학교 컴퓨터공학과 서울어코드 특기장학생 | 17.03 ~ 18.02 |  
@@ -68,42 +68,29 @@ title: About
 ## 논문  
 <br/>
 
-**.석사 학위 논문**  
+**ㆍ 석사 학위 논문**  
 
-Junyoung Jung, ["KHU-TEE: A Secure Platform for IoT Devices based on ARM PSA,"](http://khu.dcollection.net/public_resource/pdf/200000289488_20200428224000.pdf)  
- 경희대학교 일반대학원: 컴퓨터공학과, 2020.02.    
-
-**.국제 학술 대회**  
-
-Junyoung Jung, Jinsung Cho, and Ben Lee, ["A Secure Platform for IoT Devices based on ARM Platform Security Architecture,"](http://mesl.khu.ac.kr/research/paper/IMCOM_ICUIMC_2020_Junyoung_final.pdf)  
- Proc. of International Conference on Ubiquitous Information Management and Communication (IMCOM 2020), Taichung, Taiwan, Jan, 2020.    
-
-**.국내 학술 대회**  
-
-정준영, 조진성, ["IoT 디바이스를 위한 Arm PSA 기반 보안 플랫폼 설계,"](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08763444)  
- 한국컴퓨터종합학술대회, 2019.06.   
+Junyoung Jung, ["KHU-TEE: A Secure Platform for IoT Devices based on ARM PSA,"](http://khu.dcollection.net/public_resource/pdf/200000289488_20200428224000.pdf) 경희대학교 일반대학원: 컴퓨터공학과, 2020.02.    
 
 <br/>
 
-정준영, 이기영, 김병선, 조진성, ["통합 보안 SoC 기반의 IoT 디바이스 보안 플랫폼 설계,"](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07503269?TotalCount=1&Seq=1&q=%5B%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%C2%A7coldb%C2%A72%C2%A751%C2%A73%5D&searchWord=%EC%A0%84%EC%B2%B4%3D%5E%24%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%5E*&Multimedia=0&isIdentifyAuthor=0&Collection=0&SearchAll=%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84&isFullText=0&specificParam=0&SearchMethod=0&Sort=1&SortType=desc&Page=1&PageSize=20)  
- 한국컴퓨터종합학술대회, 2018.06.   
+**ㆍ 국제 학술 대회**  
+
+Junyoung Jung, Jinsung Cho, and Ben Lee, ["A Secure Platform for IoT Devices based on ARM Platform Security Architecture,"](http://mesl.khu.ac.kr/research/paper/IMCOM_ICUIMC_2020_Junyoung_final.pdf) Proc. of International Conference on Ubiquitous Information Management and Communication (IMCOM 2020), Taichung, Taiwan, Jan, 2020.    
 
 <br/>
 
-정준영, 오종렬, 윤상윤, 김동한, ["전기적 힘을 사용한 햅틱 기술의 교육 효과 증명: 전자석을 이용한 타자 연습기,"](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07322818?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20)  
- 한국소프트웨어종합학술대회, 2017.12.  
+**ㆍ 국내 학술 대회**  
 
-<br/>
+정준영, 조진성, ["IoT 디바이스를 위한 Arm PSA 기반 보안 플랫폼 설계,"](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08763444) 한국컴퓨터종합학술대회, 2019.06.   
 
-정준영, 김병선, 조진성, ["IoT 디바이스 보안 플랫폼 기반의 보안 관제 시스템의 설계 및 구현,"](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207806?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20)  
- 한국컴퓨터종합학술대회, 2017.06.  
+정준영, 이기영, 김병선, 조진성, ["통합 보안 SoC 기반의 IoT 디바이스 보안 플랫폼 설계,"](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07503269?TotalCount=1&Seq=1&q=%5B%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%C2%A7coldb%C2%A72%C2%A751%C2%A73%5D&searchWord=%EC%A0%84%EC%B2%B4%3D%5E%24%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84%5E*&Multimedia=0&isIdentifyAuthor=0&Collection=0&SearchAll=%ED%86%B5%ED%95%A9%20%EB%B3%B4%EC%95%88%20SoC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20IoT%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EB%B3%B4%EC%95%88%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%84%A4%EA%B3%84&isFullText=0&specificParam=0&SearchMethod=0&Sort=1&SortType=desc&Page=1&PageSize=20) 한국컴퓨터종합학술대회, 2018.06.   
 
-<br/>
+정준영, 오종렬, 윤상윤, 김동한, ["전기적 힘을 사용한 햅틱 기술의 교육 효과 증명: 전자석을 이용한 타자 연습기,"](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07322818?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20) 한국소프트웨어종합학술대회, 2017.12.  
 
-정준영, 김병선, 조진성, ["IoT 디바이스의 보안 관제 설계를 위한 공개 보안 도구의 유형 및 적용 방안 분석,"](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07018046)  
- 한국컴퓨터종합학술대회, 2016.06. 
+정준영, 김병선, 조진성, ["IoT 디바이스 보안 플랫폼 기반의 보안 관제 시스템의 설계 및 구현,"](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207806?TotalCount=0&Seq=1&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20) 한국컴퓨터종합학술대회, 2017.06.  
 
-<br/>  
+정준영, 김병선, 조진성, ["IoT 디바이스의 보안 관제 설계를 위한 공개 보안 도구의 유형 및 적용 방안 분석,"](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07018046) 한국컴퓨터종합학술대회, 2016.06. 
 
 ***
 
