@@ -5,5 +5,4 @@
 
 ```  
 $ jekyll serve   
-
 ```   
