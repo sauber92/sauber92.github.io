@@ -71,7 +71,7 @@ title: About
 
 **ㆍ 석사 학위 논문**  
 
-Junyoung Jung, ["KHU-TEE: A Secure Platform for IoT Devices based on ARM PSA,"](http://khu.dcollection.net/public_resource/pdf/200000289488_20200428224000.pdf) 경희대학교 일반대학원: 컴퓨터공학과, 2020.02.    
+Junyoung Jung, ["KHU-TEE: A Secure Platform for IoT Devices based on ARM PSA,"](http://www.dcollection.net/handler/khu/200000289488) 경희대학교 일반대학원: 컴퓨터공학과, 2020.02.    
 
 <br/>
 
