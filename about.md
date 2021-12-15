@@ -15,7 +15,8 @@ title: About
 **ㆍ 주요 경력**   
 
 |--------|---------------|  
-| (현) 현대오트론 전자플랫폼팀 연구원 | 19.12 ~ |  
+| (현) 현대오토에버 책임 | 21.04 ~ |  
+| 현대오트론 전자플랫폼팀 연구원 | 19.12 ~ 21.03 |  
 | 경희대학교 대학원 컴퓨터공학과 공학석사 졸업 | 18.03 ~ 20.02 |  
 | 경희대학교 전자공학과, 컴퓨터공학과 다전공 졸업 | 12.03 ~ 18.02 |  
 | 경희대학교 [MESL(Mobile & Embedded System Lab)](http://mesl.khu.ac.kr/) 학부연구생 | 15.05 ~ 18.02 |  
@@ -74,9 +75,21 @@ Junyoung Jung, ["KHU-TEE: A Secure Platform for IoT Devices based on ARM PSA,"](
 
 <br/>
 
+**ㆍ 국제 논문지**  
+
+Junyoung Jung, BeomSeok Kim, Jinsung Cho, and Ben Lee, ["A Secure Platform Model based on ARM Platform Security Architecture for IoT Devices,"](https://ieeexplore.ieee.org/document/9526859) IEEE Internet of Things Journal, 2021.09.    
+
+<br/>
+
 **ㆍ 국제 학술 대회**  
 
 Junyoung Jung, Jinsung Cho, and Ben Lee, ["A Secure Platform for IoT Devices based on ARM Platform Security Architecture,"](http://mesl.khu.ac.kr/research/paper/IMCOM_ICUIMC_2020_Junyoung_final.pdf) Proc. of International Conference on Ubiquitous Information Management and Communication (IMCOM 2020), Taichung, Taiwan, Jan, 2020.    
+
+<br/>
+
+**ㆍ 국내 논문지**  
+
+정준영, 조진성, ["KHU-TEE: ARM PSA 기반 IoT 보안 플랫폼"](http://mesl.khu.ac.kr/research/paper/kiise20-1.pdf) 한국정보과학회논문지, 제26권, 제5호, pp. 244-249, 2020.5.    
 
 <br/>
 
